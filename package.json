@@ -1,0 +1,23 @@
+{
+  "name": "kellegram.xyz",
+  "version": "1.0.0",
+  "description": "This is the repository for my personal site [kellegram.xyz](https://kellegram.xyz).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kellegram/kellegram-xyz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kellegram/kellegram-xyz/issues"
+  },
+  "homepage": "https://github.com/Kellegram/kellegram-xyz#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
