@@ -1,11 +1,12 @@
 module.exports = function (eleventyConfig) {
-	eleventyConfig.addPassthroughCopy("assets");
-	return {
-		passthroughFileCopy: true,
-		dir: {
-			input: "src",
-			output: "_site",
-			include: "includes",
-		}
-	}
-}
+  eleventyConfig.addPassthroughCopy("assets");
+  return {
+    passthroughFileCopy: true,
+    templateFormats: ["html", "md"],
+    dir: {
+      input: "src",
+      output: "_site",
+      include: "includes",
+    },
+  };
+};
