@@ -1,4 +1,4 @@
 ---
-pageTitle: This is my other Title
+pageTitle: This is a test blog
 ---
-This is another paragraph of text.
+This is a text in a test blog
