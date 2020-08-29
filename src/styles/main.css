@@ -19,8 +19,8 @@ img {
  .header {
   padding: 80px; /* some padding */
   text-align: center; /* center the text */
-  background: #1abc9c; /* green background */
-  color: white; /* white text color */
+  background: #242424; /* green background */
+  color:	#FF6347; /* white text color */
 }
 
 /* Increase the font size of the <h1> element */
@@ -31,7 +31,7 @@ img {
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden; /* Hide overflow */
-  background-color: #333; /* Dark background color */
+  background-color: #FF7F50; /* Dark background color */
 }
 
 /* Style the navigation bar links */
