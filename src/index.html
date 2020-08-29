@@ -1,8 +1,0 @@
----
-layout: layout.liquid
-pageTitle: Welcome to my blog
----
-{% for blog in collections.blogs %}
-<h2><a href="{{ blog.url }}">{{ blog.data.pageTitle }}</a></h2>
-<em>{{ blog.date | date: "%Y-%m-%d" }}</em>
-{% endfor %}

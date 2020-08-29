@@ -7,7 +7,7 @@ h1 {
     margin: 0;
     padding: 20px 0;
     color: orange;
-    text-shadow: 0 0 10px #FFA500, 0 0 20px #FFB432;
+    /*text-shadow: 0 0 10px #FFA500, 0 0 20px #FFB432; */
 }
 
 img {
@@ -17,28 +17,27 @@ img {
 
 
  .header {
-  padding: 80px; /* some padding */
-  text-align: center; /* center the text */
-  background: #242424; /* green background */
-  color:	#FF6347; /* white text color */
+  padding: 160px;
+  text-align: center;
+  background: #242424;
+  color:	#FF6347; 
 }
 
-/* Increase the font size of the <h1> element */
 .header h1 {
-  font-size: 40px;
+  font-size: 80px;
 }
 
-/* Style the top navigation bar */
+/* top navbar */
 .navbar {
-  overflow: hidden; /* Hide overflow */
-  background-color: #FF7F50; /* Dark background color */
+  overflow: hidden;
+  background-color: #FF7F50;
 }
 
 /* Style the navigation bar links */
 .navbar a {
   float: left; /* Make sure that the links stay side-by-side */
   display: block; /* Change the display to block, for responsive reasons (see below) */
-  color: white; /* White text color */
+  color: #242424; /* White text color */
   text-align: center; /* Center the text */
   padding: 14px 20px; /* Add some padding */
   text-decoration: none; /* Remove underline */
@@ -70,15 +69,15 @@ img {
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
-  flex: 30%; /* Set the width of the sidebar */
+  flex: 15%; /* Set the width of the sidebar */
   background-color: #f1f1f1; /* Grey background color */
   padding: 20px; /* Some padding */
 }
 
 /* Main column */
 .main {
-  flex: 70%; /* Set the width of the main content */
-  background-color: white; /* White background color */
+  flex: 85%; /* Set the width of the main content */
+  background-color: #383838; /* White background color */
   padding: 20px; /* Some padding */
 }
 
