@@ -1,15 +1,37 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Kellegram"/>
-        <meta charset="utf-8">
         <link href="styles/main.css" rel="stylesheet">
         <title>Kellegram dev</title>
     </head>
     <body>
-        <h1>{{ pageTitle }}</h1>
+        <!-- Create the page header bar -->
+        <div class="header">
+            <h1>My Website</h1>
+            <p>A website created by me.</p>
+        </div> 
 
-        {{ content }}
+        <!-- Create the navbar -->
+        <div class="navbar">
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#" class="right">Link</a>
+        </div>
+
+        <!-- Create the 2 rows that the main page is split into -->
+        <div class="row">
+            <div class="side">...</div>
+            <div class="main">...</div>
+        </div>
+
+
+        <div class="footer">
+            <h2>Footer</h2>
+        </div> 
+
     </body>
 </html>
