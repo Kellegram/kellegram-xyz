@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Orkney";
-  src:local("/assets/fonts/Orkney_Regular.woff2") format("woff2");
-  src:local("/assets/fonts/Orkney_Regular.woff") format("woff");
-  src:local("/assets/fonts/Orkney_Regular.ttf") format("truetype");
+  src:local("/assets/fonts/Orkney_Bold.woff2") format("woff2");
+  src:local("/assets/fonts/Orkney_Bold.woff") format("woff");
+  src:local("/assets/fonts/Orkney_Bold.ttf") format("truetype");
 }
 
 html {
