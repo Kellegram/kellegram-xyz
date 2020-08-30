@@ -17,14 +17,14 @@ img {
 
 
  .header {
-  padding: 160px;
+  padding: 80px;
   text-align: center;
   background: #242424;
   color:	#FF6347; 
 }
 
 .header h1 {
-  font-size: 80px;
+  font-size: 40px;
 }
 
 /* top navbar */
