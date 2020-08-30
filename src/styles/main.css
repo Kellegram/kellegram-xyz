@@ -89,8 +89,12 @@ img {
   .navbar a {
     float: none;
     width: 100%;
-    padding: 8px 10px;
+    padding: 3px 6px;
     text-decoration: underline;
+  }
+
+  .header {
+    padding: 40px;
   }
 }
 
