@@ -1,5 +1,6 @@
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
+  eleventyConfig.addPassthroughCopy("src/styles");
   return {
     passthroughFileCopy: true,
     templateFormats: ["html", "md", "liquid"],

@@ -1,18 +1,37 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>My Blog</title>
-        <style>
-            body { 
-                background-color: black;
-                color: orange;
-            }
-        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Kellegram"/>
+        <link href="/styles/main.css" rel="stylesheet">
+        <title>Kellegram dev</title>
     </head>
     <body>
-        <h1>{{ pageTitle }}</h1>
+        <!-- Create the page header bar -->
+        <div class="header">
+            <h1>KELLEGRAM'S LAIR</h1>
+            <p>My personal collection of thoughts.</p>
+        </div> 
 
-        {{ content }}
+        <!-- Create the navbar -->
+        <div class="navbar">
+            <a href="/index.html">Home</a>
+            <a href="/blogs/index.html">Blogs</a>
+            <a href="/guides/index.html">Guides</a>
+            <a href="/about/index.html" class="right">About me</a>
+        </div>
+
+        <!-- Create the 2 rows that the main page is split into -->
+        <div class="row">
+            <div class="side">Sidebar content will go here</div>
+            <div class="main">{{content}}</div>
+        </div>
+
+
+        <div class="footer">
+            <h2>Footer *flushed*</h2>
+        </div> 
+
     </body>
 </html>
