@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Orkney';
-  src: url('assets/fonts/Orkney Regular.eot'); /* IE9 Compat Modes */
-  src: url('assets/fonts/Orkney Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('assets/fonts/Orkney Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('assets/fonts/Orkney Regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('assets/fonts/Orkney Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('assets/fonts/Orkney Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('/assets/fonts/Orkney Regular.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/Orkney Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/Orkney Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/Orkney Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/assets/fonts/Orkney Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/Orkney Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 body {
