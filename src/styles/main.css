@@ -70,8 +70,8 @@ img {
 /* Sidebar/left column */
 .side {
   flex: 15%; 
-  background-color: #FF6347; 
-  color: #242424;
+  background-color: #444; 
+  color: #FF6347;
   padding: 20px; 
 }
 
