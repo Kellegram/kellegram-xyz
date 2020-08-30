@@ -71,6 +71,7 @@ img {
 .side {
   flex: 15%; 
   background-color: #FF7F50; 
+  color: #242424;
   padding: 20px; 
 }
 
