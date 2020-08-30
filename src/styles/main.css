@@ -91,10 +91,12 @@ img {
     width: 100%;
     padding: 3px 6px;
     text-decoration: underline;
+    width: 95%;
+    
   }
 
   .header {
-    padding: 40px;
+    padding: 20px;
   }
 }
 
