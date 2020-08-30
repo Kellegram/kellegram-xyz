@@ -1,6 +1,14 @@
+@font-face {
+  font-family: 'Orkney';
+  src: url('/assets/fonts/Orkney Regular.woff2') format('woff2'),
+       url('/assets/fonts/Orkney Regular.woff') format('woff'),
+       url('/assets/fonts/Orkney Regular.ttf') format('truetype');
+}
+
 html {
     background-color: black;
     color: orange;
+    font-family: 'Orkney';
 }
 
 h1 {
