@@ -1,10 +1,20 @@
+@font-face {
+  font-family: 'Orkney';
+  src: url('/assets/fonts/orkney/Orkney-Regular.ttf');
+}
+
 html {
     background-color: black;
     color: orange;
 }
 
+body {
+      font-family: 'Orkney', Fallback, system-ui;
+}
+
 h1 {
     color: orange;
+    text-align: center;
     /*text-shadow: 0 0 10px #FFA500, 0 0 20px #FFB432; */
 }
 
@@ -19,10 +29,6 @@ img {
   text-align: center;
   background: #242424;
   color:	#FF6347; 
-}
-
-.header h1 {
-  font-size: 40px;
 }
 
 /* top navbar */
@@ -92,6 +98,12 @@ img {
   .navbar a {
     float: none;
     width: 100%;
+    padding: 3px 6px;
+    text-decoration: underline;
+  }
+
+  .header {
+    padding: 20px;
   }
 }
 
