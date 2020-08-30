@@ -4,8 +4,6 @@ html {
 }
 
 h1 {
-    /*margin: 0;*/
-    /*padding: 20px 0;*/
     color: orange;
     /*text-shadow: 0 0 10px #FFA500, 0 0 20px #FFB432; */
 }
@@ -50,7 +48,7 @@ img {
 
 /* Change color on hover/mouse-over */
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: orange;
   color: black;
 }
 
@@ -70,8 +68,8 @@ img {
 /* Sidebar/left column */
 .side {
   flex: 15%; 
-  background-color: #FF6347; 
-  color: #242424;
+  background-color: #444; 
+  color: #FF6347;
   padding: 20px; 
 }
 
@@ -101,4 +99,8 @@ img {
   padding: 20px;
   text-align: center;
   background: #242424;
+}
+
+.footer img{
+  display: inline;
 }
