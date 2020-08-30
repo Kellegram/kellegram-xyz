@@ -89,6 +89,8 @@ img {
   .navbar a {
     float: none;
     width: 100%;
+    padding: 8px 10px;
+    text-decoration: underline;
   }
 }
 
