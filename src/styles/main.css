@@ -99,5 +99,8 @@ img {
   padding: 20px;
   text-align: center;
   background: #242424;
-  display: inline-block;
+}
+
+.footer img{
+  display: inline;
 }
