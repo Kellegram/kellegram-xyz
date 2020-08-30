@@ -4,8 +4,6 @@ html {
 }
 
 h1 {
-    /*margin: 0;*/
-    /*padding: 20px 0;*/
     color: orange;
     /*text-shadow: 0 0 10px #FFA500, 0 0 20px #FFB432; */
 }
@@ -24,7 +22,7 @@ img {
 }
 
 .header h1 {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 /* top navbar */
@@ -50,7 +48,7 @@ img {
 
 /* Change color on hover/mouse-over */
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: orange;
   color: black;
 }
 
