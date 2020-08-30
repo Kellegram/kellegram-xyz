@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Orkney';
-  src: local('/assets/fonts/orkney/Orkney-Regular.ttf');
+  src: url('/assets/fonts/orkney/Orkney-Regular.ttf');
 }
 
 html {
