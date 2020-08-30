@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Orkney';
-  src: url('/assets/fonts/Orkney_Regular.woff2') format('woff2'),
-       url('/assets/fonts/Orkney_Regular.woff') format('woff'),
-       url('/assets/fonts/Orkney_Regular.ttf') format('truetype');
+  src: url("/assets/fonts/Orkney_Regular.woff") format('woff2'),
+       url("/assets/fonts/Orkney_Regular.woff") format('woff'),
+       url("/assets/fonts/Orkney_Regular.ttf") format('truetype');
 }
 
 html {
@@ -111,7 +111,7 @@ img {
   text-align: center;
   background: #242424;
 }
-
+Found
 .footer img{
   display: inline;
 }
