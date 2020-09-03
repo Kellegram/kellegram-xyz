@@ -1,6 +1,6 @@
 
 /* standard theme*/
-element{
+:root{
   /* General coloring */
   --bg-color: #242424;
   --text-color: orange;
