@@ -45,11 +45,10 @@ img {
     margin: 0 auto;
 }
 
-
  .header {
   padding: 80px;
   text-align: center;
-  background:var(--header-bg-colorcolor);
+  background:var(--header-bg-color);
   color: var(--accent-color); 
 }
 
