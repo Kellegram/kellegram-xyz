@@ -5,7 +5,7 @@
   --bg-color: #242424;
   --text-color: orange;
   --accent-color: #FF6347;
-  --empty-fill-color:black; /* Fill the empty space so it's not white */
+  --empty-fill-color:#242424; /* Fill the empty space so it's not white */
   
   /* Main column colors*/
   --mainpage-bg-color: #383838;
@@ -90,7 +90,7 @@ h1 {
 
 .socials a{
   display: inline;
-  
+
 }
 
 /* Main column */
