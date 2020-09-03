@@ -56,11 +56,6 @@ img {
 .navbar {
   overflow: hidden;
   background-color: var(--navbar-bg-color);
-  position: absolute;
-  margin: 0;
-  bottom: 0%;
-  left: 50%;
-  transform: translate(-50%, 10px);
   border-radius: 8px;
 }
 
@@ -72,11 +67,6 @@ img {
   text-align: center; 
   padding: 14px 20px; 
   text-decoration: none; /* Remove underline */
-}
-
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
 }
 
 /* Change color on hover/mouse-over */
