@@ -13,15 +13,6 @@
   /* Header colors */
   --header-bg-color: #242424;
 
-  /* Footer colors*/
-  --footer-bg-color: #242424;
-
-  /* Navbar colors*/
-  --navbar-bg-color:#FF7F50;
-  --navbar-text-color: black;
-  --hover-text-color: black;
-  --hover-bg-color: orange;
-
   /* Sidebar colors */
     --sidebar-bg-color: #444;
 }
@@ -71,26 +62,19 @@ h1 {
 /* Sidebar links */
 .side a {
   display: block;
-  color: var(--navbar-text-color); ;
+  color: var(--accent-color); ;
   padding: 16px;
   text-decoration: none;
 }
 
-/* Active/current link */
-.side a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
 /* Links on mouse-over */
-.side a:hover:not(.active) {
+.side a:hover {
   background-color: #555;
   color: white;
 }
 
 .socials a{
   display: inline;
-
 }
 
 /* Main column */
