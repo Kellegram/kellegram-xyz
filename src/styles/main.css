@@ -1,21 +1,43 @@
-@font-face {
-  font-family: 'Orkney';
-  src: url('/assets/fonts/orkney/Orkney-Regular.ttf');
+
+/* standard theme*/
+element{
+  /* General coloring */
+  --bg-color: #242424;
+  --text-color: orange;
+  --accent-color: #FF6347;
+  --empty-fill-color:black; /* Fill the empty space so it's not white */
+  
+  /* Main column colors*/
+  --mainpage-bg-color: #383838;
+
+  /* Header colors */
+  --header-bg-color: #242424;
+
+  /* Footer colors*/
+  --footer-bg-color: #242424;
+
+  /* Navbar colors*/
+  --navbar-bg-color:#FF7F50;
+  --navbar-text-color: black;
+  --hover-text-color: black;
+  --hover-bg-color: orange;
+
+  /* Sidebar colors */
+    --sidebar-bg-color: #444;
 }
+
+/* High contrast theme */
+
 
 html {
-    background-color: black;
-    color: orange;
+    background-color: var(--empty-fill-color);
+    color: var(--text-color);
 }
 
-body {
-      font-family: 'Orkney', Fallback, system-ui;
-}
 
 h1 {
-    color: orange;
+    color: var(--text-color);
     text-align: center;
-    /*text-shadow: 0 0 10px #FFA500, 0 0 20px #FFB432; */
 }
 
 img {
@@ -27,21 +49,21 @@ img {
  .header {
   padding: 80px;
   text-align: center;
-  background: #242424;
-  color:	#FF6347; 
+  background:var(--header-color);
+  color: var(--accent-color); 
 }
 
 /* top navbar */
 .navbar {
   overflow: hidden;
-  background-color: #FF7F50;
+  background-color: var(--navbar-bg-color);
 }
 
 /* Style the navigation bar links */
 .navbar a {
   float: left; /* Make sure that the links stay side-by-side */
   display: block;
-  color: #242424; 
+  color: var(--navbar-text-color); 
   text-align: center; 
   padding: 14px 20px; 
   text-decoration: none; /* Remove underline */
@@ -54,8 +76,8 @@ img {
 
 /* Change color on hover/mouse-over */
 .navbar a:hover {
-  background-color: orange;
-  color: black;
+  background-color: var(--hover-bg-color);
+  color: var(--hover-text-color);
 }
 
 
@@ -74,17 +96,29 @@ img {
 /* Sidebar/left column */
 .side {
   flex: 15%; 
-  background-color: #444; 
-  color: #FF6347;
+  background-color: var(--sidebar-bg-color); 
+  color: var(--accent-color);
   padding: 20px; 
 }
 
 /* Main column */
 .main {
   flex: 85%; 
-  background-color: #383838; 
+  background-color: var(--mainpage-bg-color); 
   padding: 20px;
 }
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: var(--footer-bg-color);
+}
+
+.footer img{
+  display: inline;
+}
+
+
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
@@ -105,14 +139,4 @@ img {
   .header {
     padding: 20px;
   }
-}
-
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #242424;
-}
-
-.footer img{
-  display: inline;
 }

@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Orkney';
+  src: url('/assets/fonts/orkney/Orkney-Regular.ttf');
+}
+
+body {
+      font-family: 'Orkney', Fallback, system-ui;
+}
