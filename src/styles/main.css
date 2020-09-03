@@ -52,29 +52,6 @@ img {
   color: var(--accent-color); 
 }
 
-/* top navbar */
-.navbar {
-  overflow: hidden;
-  background-color: var(--navbar-bg-color);
-  border-radius: 8px;
-}
-
-/* Style the navigation bar links */
-.navbar a {
-  float: left; /* Make sure that the links stay side-by-side */
-  display: block;
-  color: var(--navbar-text-color); 
-  text-align: center; 
-  padding: 14px 20px; 
-  text-decoration: none; /* Remove underline */
-}
-
-/* Change color on hover/mouse-over */
-.navbar a:hover {
-  background-color: var(--hover-bg-color);
-  color: var(--hover-text-color);
-}
-
 /* Ensure proper sizing */
 * {
   box-sizing: border-box;
@@ -93,6 +70,30 @@ img {
   background-color: var(--sidebar-bg-color); 
   color: var(--accent-color);
   padding: 20px; 
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+
+/* Sidebar links */
+.side a {
+  display: block;
+  color: var(--navbar-text-color); ;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.side a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Links on mouse-over */
+.side a:hover:not(.active) {
+  background-color: #555;
+  color: white;
 }
 
 /* Main column */
@@ -117,16 +118,16 @@ img {
   .row {
     flex-direction: column;
   }
+
+    .side a {float: left;}
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
 
-  .navbar a {
+  .side a {
+    text-align: center;
     float: none;
-    width: 100%;
-    padding: 3px 6px;
-    text-decoration: underline;
   }
 
   header {
