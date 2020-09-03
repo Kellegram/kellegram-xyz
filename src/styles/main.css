@@ -94,6 +94,7 @@ img {
 }
 
 .socials img{
+  display: block;
   display: inline;
 }
 
