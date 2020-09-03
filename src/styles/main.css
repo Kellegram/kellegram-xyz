@@ -56,6 +56,12 @@ img {
 .navbar {
   overflow: hidden;
   background-color: var(--navbar-bg-color);
+  position: absolute;
+  margin: 0;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 10px);
+  border-radius: 8px;
 }
 
 /* Style the navigation bar links */
@@ -134,6 +140,7 @@ img {
   }
 
   header {
-    padding: 20px;
+    padding: 15px;
+    
   }
 }
