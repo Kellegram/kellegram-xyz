@@ -73,7 +73,12 @@ h1 {
   color: white;
 }
 
-.side img{
+.side .socials{
+  padding:  8px;
+
+}
+
+.side .socials img{
   display: inline;
 }
 
