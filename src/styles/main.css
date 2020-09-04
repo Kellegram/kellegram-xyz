@@ -60,7 +60,7 @@ h1 {
 }
 
 /* Sidebar links */
-.side a {
+.navbar a {
   display: block;
   color: var(--accent-color); ;
   padding: 16px;
@@ -68,7 +68,7 @@ h1 {
 }
 
 /* Links on mouse-over */
-.side a:hover {
+.navbar a:hover {
   background-color: #555;
   color: white;
 }
@@ -76,6 +76,7 @@ h1 {
   padding:  8px;
 
 }
+
 
 .socials img{
   display: inline;
