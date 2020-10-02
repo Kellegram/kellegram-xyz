@@ -44,11 +44,7 @@
       align-items: center;
       justify-content: space-between;
       position: relative;
-      background: var(--text-color);
-      border-radius: 5rem;
       padding: 0.5rem;
-      width: 5rem;
-      height: 2.5rem;
       z-index: 1;
       cursor: pointer;
     }
