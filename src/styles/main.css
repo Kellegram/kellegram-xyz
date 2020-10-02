@@ -35,9 +35,9 @@
 }
 
 
-    .checkbox {
+    /* .checkbox {
       display: none;
-    }
+    } */
 
     .label {
       display: flex;
@@ -51,10 +51,6 @@
       height: 2.5rem;
       z-index: 1;
       cursor: pointer;
-    }
-
-    .checkbox:checked + .page .label .ball {
-      transform: translatex(2.5rem);
     }
 
     .checkbox:checked + .page {
