@@ -40,12 +40,7 @@
     } */
 
     .label {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      position: relative;
-      padding: 0.5rem;
-      z-index: 1;
+      padding: 8px;
       cursor: pointer;
     }
 
