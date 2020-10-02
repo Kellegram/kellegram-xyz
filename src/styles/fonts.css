@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'Comic';
-  src: url('assets/fonts/Comic_sans.ttf')
+  src: url('/assets/fonts/Comic_sans.ttf')
 }
 
 body {
