@@ -81,19 +81,18 @@
     }
 
     .checkbox:checked + .page {
+      --text-color: var(--contrast-text);
+      --accent-color: var(--contrast-accent);
+      
+      /* Main column colors*/
+      --mainpage-bg-color: var(--contrast-mainpage);
 
-  --text-color: var(--contrast-text);
-  --accent-color: var(--contrast-accent);
-  
-  /* Main column colors*/
-  --mainpage-bg-color: var(--contrast-mainpage);
+      /* Header colors */
+      --header-bg-color: var(--contrast-header);
 
-  /* Header colors */
-  --header-bg-color: var(--contrast-header);
-
-  /* Sidebar colors */
-  --sidebar-bg-color: var(--contrast-sidebar);
-    }
+      /* Sidebar colors */
+      --sidebar-bg-color: var(--contrast-sidebar);
+      }
 
 
 
