@@ -16,9 +16,6 @@
     --contrast-sidebar: #111;
     --contrast-header: #1a1a1a;
 
-
-
-
   /* General coloring */
   --text-color: var(--default-text);
   --accent-color:var(--default-accent);
@@ -33,32 +30,6 @@
   --sidebar-bg-color: var(--default-sidebar);
 
 }
-
-
-    /* .checkbox {
-      display: none;
-    } */
-
-    .label {
-      padding: 8px;
-      cursor: pointer;
-    }
-
-    .checkbox:checked + .page {
-      --text-color: var(--contrast-text);
-      --accent-color: var(--contrast-accent);
-      
-      /* Main column colors*/
-      --mainpage-bg-color: var(--contrast-mainpage);
-
-      /* Header colors */
-      --header-bg-color: var(--contrast-header);
-
-      /* Sidebar colors */
-      --sidebar-bg-color: var(--contrast-sidebar);
-      }
-
-
 
 html {
     background-color: var(--header-bg-color);
