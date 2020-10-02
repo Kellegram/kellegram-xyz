@@ -3,6 +3,11 @@
   src: url('/assets/fonts/orkney/Orkney-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Manrope';
+  src: url('/assets/fonts/manrope/Manrope-Regular.ttf');
+}
+
 body {
-      font-family: 'Orkney', Fallback, system-ui;
+      font-family: 'Manrope', Fallback, system-ui;
 }
