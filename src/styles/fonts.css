@@ -3,6 +3,11 @@
   src: url('/assets/fonts/orkney/Orkney-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Comic';
+  src: url('assets/fonts/Comic_sans.ttf')
+}
+
 body {
-      font-family: 'Orkney', Fallback, system-ui;
+      font-family: 'Comic', Fallback, system-ui;
 }
