@@ -1,37 +1,52 @@
 <!doctype html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="Kellegram"/>
+        <meta name="author" content="Kellegram" />
         <link href="/styles/main.css" rel="stylesheet">
         <link href="/styles/fonts.css" rel="stylesheet">
         <title>Kellegram dev</title>
     </head>
+
     <body>
+        <input type="checkbox" class="checkbox" id="check">
         <!-- Create the page header bar -->
         <header>
             <h1>KELLEGRAM'S LAIR</h1>
             <p>My personal collection of thoughts.</p>
-        </header> 
+        </header>
 
         <!-- Create the 2 rows that the main page is split into -->
         <div id="page">
             <div class="row">
                 <div class="side">
-                    <input type="checkbox" id="theme-switch">
                     <div class="navbar">
                         <a href="/index.html">Home</a>
                         <a href="/blogs/index.html">Blogs</a>
                         <a href="/guides/index.html">Guides</a>
                         <a href="/about/index.html">About me</a>
                     </div>
-                    <label for="theme-switch"></label>
-                    <div class ="socials">
+                    <!-- Create the theme switcher label -->
+                    <label for="check" class="label">
+                        <img src="/assets/icons/contrast-fill.svg" alt="Switch to high contrast theme."
+                            style="width:42px;height:42px;">
+                        <span class="ball"></span>
+                    </label>
+                    <span class="image">
+                        <img src="/assets/icons/contrast-fill.svg" alt="Switch to high contrast theme."
+                            style="width:42px;height:42px;">
+                    </span>
+
+                    <div class="socials">
                         <!-- socials -->
-                        <a href="https://discord.gg/DvFH3Dy"><img src="/assets/icons/discord-fill.svg" alt="Link to our discord" style="width:42px;height:42px;"></a> 
-                        <a href="https://twitter.com/Kellegramxyz"><img src="/assets/icons/twitter-fill.svg" alt="Link to my twitter" style="width:42px;height:42px;"></a> 
-                        <a href="https://github.com/Kellegram"><img src="/assets/icons/github-fill.svg" alt="Link to my github" style="width:42px;height:42px;"></a> 
+                        <a href="https://discord.gg/DvFH3Dy"><img src="/assets/icons/discord-fill.svg"
+                                alt="Link to our discord" style="width:42px;height:42px;"></a>
+                        <a href="https://twitter.com/Kellegramxyz"><img src="/assets/icons/twitter-fill.svg"
+                                alt="Link to my twitter" style="width:42px;height:42px;"></a>
+                        <a href="https://github.com/Kellegram"><img src="/assets/icons/github-fill.svg"
+                                alt="Link to my github" style="width:42px;height:42px;"></a>
                     </div>
                 </div>
                 <div class="main">
@@ -40,4 +55,5 @@
             </div>
         </div>
     </body>
+
 </html>

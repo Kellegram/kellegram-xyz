@@ -34,6 +34,9 @@
 
 }
 
+
+
+
   .theme-switch:checked ~ #page{
 
   --text-color: var(--contrast-text);
@@ -49,6 +52,51 @@
   --sidebar-bg-color: var(--contrast-sidebar);
     }
 
+
+    .checkbox {
+      display: none;
+    }
+
+    .label {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      background: var(--text-color);
+      border-radius: 5rem;
+      padding: 0.5rem;
+      width: 5rem;
+      height: 2.5rem;
+      z-index: 1;
+      cursor: pointer;
+    }
+
+    .label .ball {
+      position: absolute;
+      top:0.25rem;
+      left:0.25rem;
+      height:2rem;
+      width:2rem;
+      background: var(--mainpage-bg-color);
+      border-radius: 50%;
+      transform: translatex(0);
+      transition: transform 0.3s ease, background 0.5s ease;
+    }
+
+    .image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .checkbox:checked + .page .label .ball {
+      transform: translatex(2.5rem);
+    }
 
 
 
