@@ -5,15 +5,11 @@
     /* Default */
     --default-text: orange;
     --default-accent: #FF6347;
-    --default-empty-fill: #242424;
-    --default-mainpage:#383838;
-    --default-header:#242424;
-    --default-sidebar:#444;
-
+    --default-fill: black;
 }
 
 body {
-    background-color: var(--default-header);
+    background-color: var(--default-fill);
     color: var(--default-text);
     margin: 0;
     padding: 0;
@@ -28,8 +24,8 @@ h1 {
  header {
   padding: 80px;
   text-align: center;
-  background:var(--default-header);
   color: var(--default-accent); 
+  border: solid 1px orange;
 }
 
 #page {
@@ -55,10 +51,10 @@ h1 {
 /* Sidebar/left column */
 .side {
   flex: 15%; 
-  background-color: var(--default-sidebar); 
   color: var(--default-accent);
   padding: 20px; 
   overflow: auto;
+  border: solid 1px orange;
 }
 
 /* Sidebar links */
@@ -87,8 +83,8 @@ nav a:hover {
 /* Main column */
 .main {
   flex: 85%; 
-  background-color: var(--default-mainpage); 
   padding: 20px;
+  border: solid 1px orange;
 }
 
 
