@@ -10,45 +10,26 @@
     --default-header:#242424;
     --default-sidebar:#444;
 
-    /* High contrast */
-    --contrast-text: #ffa71a;
-    --contrast-mainpage: #111;
-    --contrast-sidebar: #111;
-    --contrast-header: #1a1a1a;
-
-  /* General coloring */
-  --text-color: var(--default-text);
-  --accent-color:var(--default-accent);
-  
-  /* Main column colors*/
-  --mainpage-bg-color:var(--default-mainpage);
-
-  /* Header colors */
-  --header-bg-color: var(--default-header);
-
-  /* Sidebar colors */
-  --sidebar-bg-color: var(--default-sidebar);
-
 }
 
 body {
-    background-color: var(--header-bg-color);
-    color: var(--text-color);
+    background-color: var(--default-header);
+    color: var(--default-text);
     margin: 0;
     padding: 0;
 }
 
 
 h1 {
-    color: var(--text-color);
+    color: var(--default-text);
     text-align: center;
 }
 
  header {
   padding: 80px;
   text-align: center;
-  background:var(--header-bg-color);
-  color: var(--accent-color); 
+  background:var(--default-header);
+  color: var(--default-accent); 
 }
 
 #page {
@@ -74,8 +55,8 @@ h1 {
 /* Sidebar/left column */
 .side {
   flex: 15%; 
-  background-color: var(--sidebar-bg-color); 
-  color: var(--accent-color);
+  background-color: var(--default-sidebar); 
+  color: var(--default-accent);
   padding: 20px; 
   overflow: auto;
 }
@@ -83,7 +64,7 @@ h1 {
 /* Sidebar links */
 nav a {
   display: block;
-  color: var(--accent-color); ;
+  color: var(--default-accent); ;
   padding: 16px;
   text-decoration: none;
 }
@@ -106,7 +87,7 @@ nav a:hover {
 /* Main column */
 .main {
   flex: 85%; 
-  background-color: var(--mainpage-bg-color); 
+  background-color: var(--default-mainpage); 
   padding: 20px;
 }
 
