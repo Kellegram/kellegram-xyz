@@ -69,6 +69,18 @@ h1 {
   border: solid 2px #B7432E;
 }
 
+a:link {
+  color: var(--default-accent);
+}
+
+a:visited {
+  color: var(--default-accent);
+}
+
+a:hover {
+  color: var(--default-text);
+}
+
 /* Sidebar links */
 nav a {
   display: block;
@@ -80,7 +92,7 @@ nav a {
 /* Links on mouse-over */
 nav a:hover {
   background-color: #3f3938;
-  color: orange;
+  color: var(--default-text);
 }
 .socials{
   padding:  8px;
