@@ -17,7 +17,6 @@ body {
 
 
 h1 {
-    color: var(--default-text);
     text-align: center;
 }
 
@@ -47,6 +46,13 @@ h1 {
   flex-grow: 1;
 }
 
+/* Main column */
+.main {
+  flex: 85%; 
+  padding: 20px;
+  border: solid 2px #db931f;
+}
+
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
@@ -74,20 +80,9 @@ nav a:hover {
   padding:  8px;
 
 }
-
-
 .socials img{
   display: inline;
 }
-
-/* Main column */
-.main {
-  flex: 85%; 
-  padding: 20px;
-  border: solid 2px #db931f;
-}
-
-
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
