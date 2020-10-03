@@ -31,9 +31,12 @@
 
 }
 
-html {
+body {
     background-color: var(--header-bg-color);
     color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
 }
 
 
@@ -47,6 +50,13 @@ h1 {
   text-align: center;
   background:var(--header-bg-color);
   color: var(--accent-color); 
+}
+
+#page {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100vh;
 }
 
 /* Ensure proper sizing */
@@ -71,7 +81,7 @@ h1 {
 }
 
 /* Sidebar links */
-.navbar a {
+nav a {
   display: block;
   color: var(--accent-color); ;
   padding: 16px;
@@ -79,7 +89,7 @@ h1 {
 }
 
 /* Links on mouse-over */
-.navbar a:hover {
+nav a:hover {
   background-color: #555;
   color: white;
 }
