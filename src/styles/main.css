@@ -20,6 +20,23 @@ h1 {
     text-align: center;
 }
 
+h1 .glow {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+   animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #db931f, 0 0 40px #db931f, 0 0 50px #db931f, 0 0 60px #db931f, 0 0 70px #db931f;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #dab478, 0 0 40px #dab478, 0 0 50px #dab478, 0 0 60px #dab478, 0 0 70px #dab478, 0 0 80px #dab478;
+  }
+}
+
+
  header {
   padding: 80px;
   text-align: center;
