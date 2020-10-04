@@ -96,7 +96,7 @@ nav a:hover {
 }
 .socials{
   padding:  8px;
-
+  display: flex;
 }
 .socials img{
   display: inline;
@@ -104,9 +104,9 @@ nav a:hover {
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
-  .row {
-    flex-direction: column;
-  }
+  .row { flex-direction: column;}
+
+  header { padding: 40px;}
 
     .side a {float: left;}
 }
@@ -119,8 +119,5 @@ nav a:hover {
     float: none;
   }
 
-  header {
-    padding: 15px;
-    
-  }
+  header { padding: 15px;}
 }
