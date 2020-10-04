@@ -10,11 +10,7 @@ pageTitle: What I do after installing Pop!_OS
 ### Install updates and reboot
 
 ```bash
-sudo apt update
-sudo apt upgrade
-sudo apt dist-upgrade
-sudo apt autoremove
-sudo apt autoclean
+sudo apt update -y && sudo apt full-upgrade -y
 sudo reboot now
 ```
 
@@ -33,8 +29,6 @@ git-lfs install
 ```bash
 sudo apt install -y libavcodec-extra libdvd-pkg; sudo dpkg-reconfigure libdvd-pkg
 ```
-
-
 
 ### Install all flatpaks I use
 
