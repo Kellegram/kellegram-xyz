@@ -11,13 +11,7 @@
 body {
     background-color: var(--default-fill);
     color: var(--default-text);
-    margin: 0;
-    padding: 0;
-}
-
-
-h1 {
-    text-align: center;
+    margin: auto;
 }
 
  header {
@@ -48,8 +42,6 @@ h1 {
 /* Column container */
 .row {
   display: flex;
-  flex-wrap: wrap;
-  flex-grow: 1;
 }
 
 /* Main column */
@@ -64,7 +56,7 @@ h1 {
 .side {
   flex: 15%; 
   color: var(--default-accent);
-  padding: 20px; 
+  padding: 15px;
   overflow: auto;
   border: solid 2px #B7432E;
 }
@@ -98,21 +90,18 @@ nav a:hover {
   padding:  8px;
   display: flex;
 }
-.socials img{
-  display: inline;
-}
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .row { flex-direction: column;}
 
-  header { padding: 40px;}
+  header { padding: 30px;}
 
     .side a {float: left;}
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 
   .side a {
     text-align: center;
