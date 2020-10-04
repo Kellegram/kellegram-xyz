@@ -8,6 +8,9 @@
     --default-fill: #111;
 }
 
+/* Ensure proper sizing */
+* {box-sizing: border-box;}
+
 body {
     background-color: var(--default-fill);
     color: var(--default-text);
@@ -34,11 +37,6 @@ body {
     width: 1400px;
 }
 
-/* Ensure proper sizing */
-* {
-  box-sizing: border-box;
-}
-
 /* Column container */
 .row {
   display: flex;
@@ -63,17 +61,11 @@ body {
   border: solid 2px #B7432E;
 }
 
-a:link {
-  color: var(--default-accent);
-}
+a:link {color: var(--default-accent);}
 
-a:visited {
-  color: var(--default-accent);
-}
+a:visited {color: var(--default-accent);}
 
-a:hover {
-  color: var(--default-text);
-}
+a:hover {color: var(--default-text);}
 
 /* Sidebar links */
 nav a {
@@ -81,6 +73,7 @@ nav a {
   color: var(--default-accent); ;
   padding: 16px;
   text-decoration: none;
+  text-align: center;
 }
 
 /* Links on mouse-over */
@@ -90,7 +83,7 @@ nav a:hover {
 }
 .socials{
   padding:  8px;
-  display: flex;
+  text-align: center;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
