@@ -35,6 +35,9 @@ sudo apt install -y libavcodec-extra libdvd-pkg; sudo dpkg-reconfigure libdvd-pk
 ```bash
 flatpak install flatseal GitKraken Discord com.github.micahflee.torbrowser-launcher com.google.AndroidStudio GreenWithEnvy com.unity.UnityHub im.riot.Riot org.gabmus.hydrapaper org.kde.kdenlive org.qbittorrent.qBittorrent
 ```
+## Resources
 
-
-
+* [Pop!_OS website](https://pop.system76.com/)
+* [Pop!_OS docs](https://support.system76.com/#pop)
+* [Pop!_OS Mattermost chat](https://chat.pop-os.org)
+* [Flatpak](https://flatpak.org/)
