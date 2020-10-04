@@ -87,7 +87,7 @@ nav a:hover {
 }
 
 pre {
-    background: #3f3f3f;
+    background: black;
     border: 1px solid var(--default-text);
     border-left: 3px solid #e4d656;
     color: rgb(192, 192, 192);
