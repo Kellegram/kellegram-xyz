@@ -8,6 +8,6 @@ pageTitle: Come and read a blog or two!
 
 {% for blog in collections.blogs %}
 <h2><a href="{{ blog.url }}">{{ blog.data.pageTitle }}</a></h2>
-<hr>
 <em>Last updated:{{ blog.date | date: "%Y-%m-%d" }}</em>
+<hr>
 {% endfor %}
