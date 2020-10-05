@@ -1,141 +1,136 @@
 
 /* standard theme*/
 :root{
-  /* General coloring */
-  --bg-color: #242424;
-  --text-color: orange;
-  --accent-color: #FF6347;
-  --empty-fill-color:black; /* Fill the empty space so it's not white */
-  
-  /* Main column colors*/
-  --mainpage-bg-color: #383838;
 
-  /* Header colors */
-  --header-bg-color: #242424;
-
-  /* Footer colors*/
-  --footer-bg-color: #242424;
-
-  /* Navbar colors*/
-  --navbar-bg-color:#FF7F50;
-  --navbar-text-color: black;
-  --hover-text-color: black;
-  --hover-bg-color: orange;
-
-  /* Sidebar colors */
-    --sidebar-bg-color: #444;
+    /* Default */
+    --default-text:#ceb772 ;
+    --header-text: #db931f;
+    --default-accent: #B7432E;
+    --default-fill: #111;
 }
-
-/* High contrast theme */
-
-
-html {
-    background-color: var(--empty-fill-color);
-    color: var(--text-color);
-}
-
-
-h1 {
-    color: var(--text-color);
-    text-align: center;
-}
-
-img {
-    display: block;
-    margin: 0 auto;
-}
-
- .header {
-  padding: 80px;
-  text-align: center;
-  background:var(--header-bg-color);
-  color: var(--accent-color); 
-}
-
-/* top navbar */
-.navbar {
-  overflow: hidden;
-  background-color: var(--navbar-bg-color);
-}
-
-/* Style the navigation bar links */
-.navbar a {
-  float: left; /* Make sure that the links stay side-by-side */
-  display: block;
-  color: var(--navbar-text-color); 
-  text-align: center; 
-  padding: 14px 20px; 
-  text-decoration: none; /* Remove underline */
-}
-
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
-
-/* Change color on hover/mouse-over */
-.navbar a:hover {
-  background-color: var(--hover-bg-color);
-  color: var(--hover-text-color);
-}
-
 
 /* Ensure proper sizing */
-* {
-  box-sizing: border-box;
+* {box-sizing: border-box;}
+
+body {
+    background-color: var(--default-fill);
+    color: var(--default-text);
+    margin: auto;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  color: var(--header-text);
+}
+
+h4 {
+vertical-align: bottom;
+}
+
+ header {
+  padding: 80px;
+  text-align: center;
+  color: var(--default-text); 
+  border: solid 2px #B7432E;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.page {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+    width: 1400px;
 }
 
 /* Column container */
 .row {
   display: flex;
   flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+/* Main column */
+.main {
+  flex: 85%; 
+  padding: 20px;
+  border: solid 2px #B7432E;
 }
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
 .side {
   flex: 15%; 
-  background-color: var(--sidebar-bg-color); 
-  color: var(--accent-color);
-  padding: 20px; 
+  color: var(--default-accent);
+  padding: 15px;
+  overflow: auto;
+  border: solid 2px #B7432E;
 }
 
-/* Main column */
-.main {
-  flex: 85%; 
-  background-color: var(--mainpage-bg-color); 
-  padding: 20px;
-}
+a:link {color: var(--default-accent);}
 
-.footer {
-  padding: 20px;
+a:visited {color: var(--default-accent);}
+
+a:hover {color: var(--default-text);}
+
+/* Sidebar links */
+nav a {
+  display: block;
+  color: var(--default-accent); ;
+  padding: 16px;
+  text-decoration: none;
   text-align: center;
-  background: var(--footer-bg-color);
 }
 
-.footer img{
-  display: inline;
+/* Links on mouse-over */
+nav a:hover {
+  background-color: #3f3938;
+  color: var(--default-text);
+}
+.socials{
+  padding:  8px;
+  text-align: center;
+}
+
+pre {
+    background: black;
+    border: 1px solid var(--default-text);
+    border-left: 3px solid #e4d656;
+    color: rgb(192, 192, 192);
+    page-break-inside: auto;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap:break-word;
+    white-space: pre-wrap;
 }
 
 
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {
-    flex-direction: column;
-  }
+@media screen and (max-width: 800px) {
+  .row { flex-direction: column;}
+
+  header { padding: 30px;}
+
+    .side a {float: left;}
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
+@media screen and (max-width: 450px) {
+
+  .side a {
+    text-align: center;
     float: none;
-    width: 100%;
-    padding: 3px 6px;
-    text-decoration: underline;
   }
 
-  .header {
-    padding: 20px;
-  }
+  header { padding: 15px;}
 }
