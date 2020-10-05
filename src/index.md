@@ -12,11 +12,11 @@ Here you can find my blogs and guides, as well as current ways of contacting me.
 ---
 
 ## Check out my socials
-* [Check out my Github](https://github.com/Kellegram)
+* [Check out my GitHub](https://github.com/Kellegram)
 * [Tweet at me](https://nitter.net/Kellegramxyz)
 * [Come talk to us on Tech Vision discord](https://discord.gg/DvFH3Dy)
-* [And on our matrix instance](https://matrix.to/#/+techvision:bimpson.ems.host)
-* Gitlab mirror coming soon
+* [And on our [matrix] instance](https://matrix.to/#/+techvision:bimpson.ems.host)
+* GitLab mirror coming soon
 * Self hosted gitea instance coming some time in the future
 
 
