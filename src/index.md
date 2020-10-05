@@ -19,6 +19,11 @@ Here you can find my blogs and guides, as well as current ways of contacting me.
 * GitLab mirror coming soon
 * Self hosted gitea instance coming some time in the future
 
+## Resources
+* The website is built the [NginX](https://www.nginx.com/) web server.
+* Pages are generated with the help of the [Eleventy](https://www.11ty.dev/) SSG.
+* Credits to [DigitalOcean](https://www.digitalocean.com/community/tutorials) for their great tutorials.
+* This website is built without any JavaScript.
 
 
 
