@@ -3,7 +3,8 @@
 :root{
 
     /* Default */
-    --default-text: #db931f;
+    --default-text:#f2d57d ;
+    --header-text: #db931f;
     --default-accent: #B7432E;
     --default-fill: #111;
 }
@@ -16,6 +17,11 @@ body {
     color: var(--default-text);
     margin: auto;
 }
+
+:is(h1, h2, h3, h4, h5, h6) {
+  color: var(--header-text);
+}
+
 
  header {
   padding: 80px;
