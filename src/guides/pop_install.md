@@ -33,7 +33,7 @@ sudo apt install -y libavcodec-extra libdvd-pkg; sudo dpkg-reconfigure libdvd-pk
 ### Install all flatpaks I use
 
 ```bash
-flatpak install flatseal GitKraken Discord com.github.micahflee.torbrowser-launcher com.google.AndroidStudio GreenWithEnvy com.unity.UnityHub im.riot.Riot org.gabmus.hydrapaper org.kde.kdenlive org.qbittorrent.qBittorrent
+flatpak install flatseal GitKraken Discord com.github.micahflee.torbrowser-launcher com.google.AndroidStudio GreenWithEnvy com.unity.UnityHub im.riot.Riot org.gabmus.hydrapaper org.kde.kdenlive org.qbittorrent.qBittorrent org.telegram.desktop
 ```
 ## Resources
 
