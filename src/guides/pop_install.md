@@ -17,7 +17,7 @@ sudo reboot now
 ### Install all the apps I use with apt
 
 ```bash
-sudo apt install -y ubuntu-restricted-extras gparted gnome-tweaks timeshift code vlc obs-studio cmatrix cowsay flameshot kazam neovim com.github.tkashkin.gamehub scrcpy    <apps list incomplete>
+sudo apt install -y ubuntu-restricted-extras gparted gnome-tweaks timeshift code vlc obs-studio cmatrix cowsay flameshot kazam neovim com.github.tkashkin.gamehub scrcpy neofetch texlive-latex-extra   <apps list incomplete>
 ```
 
 ### Install and initialise git LFS
