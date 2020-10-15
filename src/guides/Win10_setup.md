@@ -11,6 +11,9 @@ While I use Windows 10 less and less, I am still forced to use it in certain cas
 powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/JUbtQ')"
 ```
 
+## If using Windows 10 N edition
+> To install the Media Feature Pack, navigate to Settings > Apps > Apps and Features > Optional Features > Add a Feature and find the Media Feature Pack in the list of available Optional Features. Note, you will not be prompted to restart your computer, but you must restart in order to successfully complete installation of the Media Feature Pack.  
+
 
 ## Breakdown of the chocolatey command
 
