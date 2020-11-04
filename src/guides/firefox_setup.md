@@ -25,7 +25,7 @@ You can enable the new DNS over HTTPS in settings, if it's not enabled by defaul
 ***
 <span style="color:red"> *WARNING:*</span> Default DNS provider is Cloudflare, if you do not trust Cloudflare, use the following link to learn how to change the DNS provider: [Application level DNS](https://wiki.archlinux.org/index.php/Domain_name_resolution#Application-level_DNS)
 
-<span style="color:red"> *WARNING:*</span> Using Application-level DNS methods like this one will bypass your local DNS reolver. Pi-hole and similar blockers will not work!
+<span style="color:red"> *WARNING:*</span> Using Application-level DNS methods like this one will bypass your local DNS resolver. Pi-hole and similar blockers will not work!
 ***
 
 ## Extensions I use
