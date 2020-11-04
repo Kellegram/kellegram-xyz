@@ -8,6 +8,12 @@ I do not agree with a lot of the default settings used in Firefox. I tweak it us
 ## Custom user.js
 I made a custom user.js file that can be found in [my repository](https://github.com/Kellegram/my-user-js). It can be added to any firefox profile. Some settings may need to be tweaked depending on your machine or usage. I will outline those settings in the repository README.
 
+### Applying the user.js file
+1. Download my [user.js](https://raw.githubusercontent.com/Kellegram/my-user-js/master/user.js) file (Right click > Save Page As...).
+2. In the URL bar type "about:profiles".
+3. For the profile you want to use (or default) click "Open Folder" in the Root Directory section.
+4. With the folder open, close Firefox, then paste the user.js you downloaded into the folder.
+
 ## DNS over HTTPS
 You can enable the new DNS over HTTPS in settings, if it's not enabled by default.
 
