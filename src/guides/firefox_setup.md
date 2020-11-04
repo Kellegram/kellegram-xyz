@@ -11,18 +11,16 @@ I made a custom user.js file that can be found in [my repository](https://github
 ## DNS over HTTPS
 You can enable the new DNS over HTTPS in settings, if it's not enabled by default.
 
-<span style="color:red"> *WARNING: Default DNS provider is Cloudflare, if you do not trust Cloudflare, use the following link to learn how to change the DNS provider:*</span>
-
-[Application level DNS](https://wiki.archlinux.org/index.php/Domain_name_resolution#Application-level_DNS)
-
-<span style="color:red"> *WARNING: Using Application-level DNS methods like this one will bypass your local DNS reolver. Pi-hole and similar blockers will not work!* </span>
-
-***
-
 1. Click the menu button (3 vertical lines in the top-right) and go to Options.
 2. Scroll all the way down to Network Settings and click the "Settings..." button.
 3. Scroll down and find "Enable DNS over HTTPS".
 4. Click OK.
+
+***
+<span style="color:red"> *WARNING:*</span> Default DNS provider is Cloudflare, if you do not trust Cloudflare, use the following link to learn how to change the DNS provider: [Application level DNS](https://wiki.archlinux.org/index.php/Domain_name_resolution#Application-level_DNS)
+
+<span style="color:red"> *WARNING:*</span> Using Application-level DNS methods like this one will bypass your local DNS reolver. Pi-hole and similar blockers will not work!
+***
 
 ## Extensions I use
 _Coming soon..._
