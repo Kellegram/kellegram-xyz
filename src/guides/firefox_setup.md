@@ -10,6 +10,7 @@ I made a custom user.js file that can be found in [my repository](https://github
 
 ## DNS over HTTPS
 You can enable the new DNS over HTTPS in settings, if it's not enabled by default.
+
 <span style="color:red"> *WARNING: Default DNS provider is Cloudflare, if you do not trust Cloudflare, use the following link to learn how to change the DNS provider:*</span>
 
 [Application level DNS](https://wiki.archlinux.org/index.php/Domain_name_resolution#Application-level_DNS)
