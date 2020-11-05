@@ -21,13 +21,12 @@ Enterprise policies are a way of enforcing browser behaviour in an enterprise en
 
 ### Applying the policies.json file
 1. Download my [policies.json](https://raw.githubusercontent.com/Kellegram/my-firefox-setup/master/policies.json) (Right click > Save Page As...).
-2. Follow instructions for your platform (this is best done if Firefox was never launched, at least on the profile you use):
-<br>
-    **Microsoft Windows**: create a directory called “distribution” where the firefox.exe file is located and place the file “policies.json” there.
+2. Follow instructions for your platform (this is best done if Firefox was never launched, at least on the profile you use):  
+    Microsoft Windows: create a directory called “distribution” where the firefox.exe file is located and place the file “policies.json” there.
 
-    **Apple macOS**: create a directory called “distribution” in Firefox.app/Contents/Resources/ and place the file “policies.json” there.
+    Apple macOS: create a directory called “distribution” in Firefox.app/Contents/Resources/ and place the file “policies.json” there.
 
-    **Linux**: create a directory called “distribution” in the directory where Firefox is located and place the file “policies.json” there. 
+    Linux: create a directory called “distribution” in the directory where Firefox is located and place the file “policies.json” there. 
 
 ## DNS over HTTPS
 You can enable the new DNS over HTTPS in settings, if it's not enabled by default.
