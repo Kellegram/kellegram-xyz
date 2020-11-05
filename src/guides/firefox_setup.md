@@ -32,8 +32,6 @@ You can enable the new DNS over HTTPS in settings, if it's not enabled by defaul
 ## Extensions I use
 There is a set of extensions that I install everywhere, including on Firefox mobile. A very good read about what extensions are good, secure and worth using is in Arkenfox's wiki in the [Extensions](https://github.com/arkenfox/user.js/wiki/4.1-Extensions) section.
 
-***
-
 * [uBlock Origin](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/) - The best wide spectrum blocker. Many tweakable options. I use some [Energized](https://energized.pro/) customs lits alongside the defaults.
 * [HTTPS Everywhere](https://addons.mozilla.org/en-GB/firefox/addon/https-everywhere/) - A must have nowadays with "Encrypt All Sites Eligible" toggled on. There is almost no cases anymore where you would want to be on an HTTP site.
 * [Bitwarden](https://addons.mozilla.org/en-GB/firefox/addon/bitwarden-password-manager/) - A secure, FOSS password manager with cloud sync. I install it on all my devices.
