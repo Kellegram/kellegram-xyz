@@ -2,6 +2,7 @@
 layout: layout.liquid
 pageTitle: My Windows 10 setup
 ---
+
 # How I set-up my Windows 10 install
 
 While I use Windows 10 less and less, I am still forced to use it in certain cases. As of right now to set it up I use a single script, which is a fork of ChrisTitusTech's script. It was already very close to what I would do anyway. 
