@@ -6,7 +6,7 @@
     --default-text:#ceb772 ;
     --header-text: #db931f;
     --default-accent: #B7432E;
-    --default-fill: #111;
+    --default-fill: black;
 }
 
 /* Ensure proper sizing */
