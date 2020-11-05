@@ -26,10 +26,19 @@ You can enable the new DNS over HTTPS in settings, if it's not enabled by defaul
 <span style="color:red"> *WARNING:*</span> Default DNS provider is Cloudflare, if you do not trust Cloudflare, use the following link to learn how to change the DNS provider: [Application level DNS](https://wiki.archlinux.org/index.php/Domain_name_resolution#Application-level_DNS)
 
 <span style="color:red"> *WARNING:*</span> Using Application-level DNS methods like this one will bypass your local DNS resolver. Pi-hole and similar blockers will not work!
+
 ***
 
 ## Extensions I use
-_Coming soon..._
+There is a set of extensions that I install everywhere, including on Firefox mobile. A very good read about what extensions are good, secure and worth using is in Arkenfox's wiki in the [Extensions](https://github.com/arkenfox/user.js/wiki/4.1-Extensions) section.
+
+***
+
+* [uBlock Origin](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/) - The best wide spectrum blocker. Many tweakable options. I use some [Energized](https://energized.pro/) customs lits alongside the defaults.
+* [HTTPS Everywhere](https://addons.mozilla.org/en-GB/firefox/addon/https-everywhere/) - A must have nowadays with "Encrypt All Sites Eligible" toggled on. There is almost no cases anymore where you would want to be on an HTTP site.
+* [Bitwarden](https://addons.mozilla.org/en-GB/firefox/addon/bitwarden-password-manager/) - A secure, FOSS password manager with cloud sync. I install it on all my devices.
+* [Request Control](https://addons.mozilla.org/en-US/firefox/addon/requestcontrol/) - Front-end for Firefox's request management API. I replaced [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) with this, as it does the same and more.
+* [xBrowserSync](https://addons.mozilla.org/en-US/firefox/addon/xbs/) - Secure syncing of bookmarks across devices. No sign up. Adds a search bar for browsing all bookmarks. Very convenient.
 
 
 ## Resources
