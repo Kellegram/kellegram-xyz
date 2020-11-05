@@ -6,13 +6,27 @@ pageTitle: My firefox setup
 I do not agree with a lot of the default settings used in Firefox. I tweak it using various methods to customize it to my preference and machine.
 
 ## Custom user.js
-I made a custom user.js file that can be found in [my repository](https://github.com/Kellegram/my-user-js). It can be added to any firefox profile. Some settings may need to be tweaked depending on your machine or usage. I will outline those settings in the repository README.
+I made a custom user.js file that can be found in [my repository](https://github.com/Kellegram/my-firefox-setup). It can be added to any firefox profile. Some settings may need to be tweaked depending on your machine or usage. I will outline those settings in the repository README.
 
 ### Applying the user.js file
-1. Download my [user.js](https://raw.githubusercontent.com/Kellegram/my-user-js/master/user.js) file (Right click > Save Page As...).
+1. Download my [user.js](https://raw.githubusercontent.com/Kellegram/my-firefox-setup/master/user.js) file (Right click > Save Page As...).
 2. In the URL bar type "about:profiles".
 3. For the profile you want to use (or default) click "Open Folder" in the Root Directory section.
 4. With the folder open, close Firefox, then paste the user.js you downloaded into the folder.
+
+## Custom policies.json (optional)
+Enterprise policies are a way of enforcing browser behaviour in an enterprise environment, but can be used by users to do the same. Unlike group policies, policies.json is cross-platform. I have made my own, just like the user.js file, this one can also be found in [my repository](https://github.com/Kellegram/my-firefox-setup).
+
+<span style="color:red"> **WARNING:**</span> These policies are enforced and are usually not modifiable within Firefox. Make sure you go through the file and learn what it does before you use it!
+
+### Applying the policies.json file
+1. Download my [policies.json](https://raw.githubusercontent.com/Kellegram/my-firefox-setup/master/policies.json) (Right click > Save Page As...).
+2. Follow instructions for your platform (this is best done if Firefox was never launched, at least on the profile you use):
+     Microsoft Windows: create a directory called “distribution” where the firefox.exe file is located and place the file “policies.json” there.
+
+    Apple macOS: create a directory called “distribution” in Firefox.app/Contents/Resources/ and place the file “policies.json” there.
+
+    Linux: create a directory called “distribution” in the directory where Firefox is located and place the file “policies.json” there. 
 
 ## DNS over HTTPS
 You can enable the new DNS over HTTPS in settings, if it's not enabled by default.
