@@ -60,6 +60,7 @@ There is a set of extensions that I install everywhere, including on Firefox mob
 - [Request Control](https://addons.mozilla.org/en-US/firefox/addon/requestcontrol/) - Front-end for Firefox's request management API. I replaced [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) with this, as it does the same and more.
 - [xBrowserSync](https://addons.mozilla.org/en-US/firefox/addon/xbs/) - Secure syncing of bookmarks across devices. No sign up. Adds a search bar for browsing all bookmarks. Very convenient.
 - [Firemonkey](https://addons.mozilla.org/en-US/firefox/addon/firemonkey/) - Light, open source user-script **and** user-style manager.
+- [Terms of Service; Didn’t Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/) - Displays ratings for domain's terms & privacy policies, as well as any notable comments from users. 
 
 ## Resources
 
