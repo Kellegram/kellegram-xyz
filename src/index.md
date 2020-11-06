@@ -16,7 +16,7 @@ Here you can find my blogs and guides, as well as current ways of contacting me.
 * [Tweet at me](https://nitter.net/Kellegramxyz)
 * [Come talk to us on Tech Vision discord](https://discord.gg/DvFH3Dy)
 * [And on our [matrix] instance](https://matrix.to/#/+techvision:bimpson.ems.host)
-* Come hang out on the [English](https://discord.com/invite/ghostrunner) and [Polish](https://discord.gg/9y9KUW3) Ghostrunner server.
+* Come hang out in the [Ghostrunning](https://discord.com/invite/eZRz3Q5) server
 * GitLab mirror coming soon
 * Self hosted gitea instance coming some time in the future
 
