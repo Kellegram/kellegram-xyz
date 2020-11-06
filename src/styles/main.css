@@ -2,7 +2,7 @@
 :root {
   /* Default */
   --default-text: #ceb772;
-  --header-text: #db931f;
+  --header-text:orange;
   --default-accent: #b7432e;
   --default-fill: black;
 }
