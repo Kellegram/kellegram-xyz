@@ -133,4 +133,5 @@ pre {
   }
 
   header { padding: 15px;}
+  pre {word-wrap:anywhere;}
 }
