@@ -61,6 +61,10 @@ ninja -C builddir install
 To enable vkBasalt for a Steam game, add `ENABLE_VKBASALT=1 %command%` in the game's launch options.
 Possible locations for the config file are written in the [repository](https://github.com/DadSchoorse/vkBasalt#configure).
 
+## Using multiple Env variables
+When using multiple variables that end with `%command%`, just place variables one after another, separated with space, then add `%command` at the end, for example like so:  
+`MANGOHUD_DLSYM=1 mangohud ENABLE_VKBASALT=1 %command%`
+
 ## Resources
 
 - [Pop!\_OS website](https://pop.system76.com/)
