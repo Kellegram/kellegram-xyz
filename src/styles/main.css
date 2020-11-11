@@ -132,7 +132,7 @@ pre {
   white-space: pre-wrap;
 }
 
-pre code {
+code {
   color: rgb(192, 192, 192);
   font-family: monospace;
   font-size: 14px;
