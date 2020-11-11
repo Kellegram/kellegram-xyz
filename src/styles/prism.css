@@ -9,16 +9,18 @@ https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+cli
  code[class*="language-"],
  pre[class*="language-"] {
    color: #ccc;
-   background: none;
-   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+   background: black;
+   font-family: monospace;
+   border: 1px solid var(--default-text);
+   border-left: 5px solid #e4d656;
    font-size: 0.85em;
    text-align: left;
    white-space: pre-wrap;
    word-spacing: normal;
    word-break: normal;
    word-wrap: normal;
+   display: block;
    line-height: 1.6;
- 
    -moz-tab-size: 4;
    -o-tab-size: 4;
    tab-size: 4;
