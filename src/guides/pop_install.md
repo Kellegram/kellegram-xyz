@@ -63,7 +63,9 @@ Possible locations for the config file are written in the [repository](https://g
 
 ## Using multiple Env variables
 When using multiple variables that end with `%command%`, just place variables one after another, separated with space, then add `%command` at the end, for example like so:  
-`MANGOHUD_DLSYM=1 mangohud ENABLE_VKBASALT=1 %command%`
+```bash
+MANGOHUD_DLSYM=1 mangohud ENABLE_VKBASALT=1 %command%
+```
 
 ## Resources
 
