@@ -8,14 +8,13 @@
 }
 
 @font-face {
-  font-family: 'Manrope';
-  src: url('/assets/fonts/manrope/Manrope_variable.ttf');
+  font-family: "Manrope";
+  src: url("/assets/fonts/manrope/Manrope_variable.ttf");
 }
 
 body {
-      font-family: 'Manrope', Fallback, system-ui;
-      font-size: 20px;
-      font-weight: 600;
+  font-family: "Manrope", Fallback, system-ui;
+  font-size: 22px;
 }
 
 /* Ensure proper sizing */
@@ -29,7 +28,12 @@ body {
   margin: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--header-text);
 }
 
