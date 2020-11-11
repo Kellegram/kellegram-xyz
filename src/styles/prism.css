@@ -11,14 +11,14 @@ pre[class*="language-"] {
   color: #ccc;
   background: none;
   font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-  font-size: 1em;
+  font-size: 0.8em;
   text-align: left;
   white-space: pre-wrap;
   word-spacing: normal;
   word-break: normal;
   word-wrap: break-word;
   line-height: 1.5;
-
+  counter-reset: lineNumber;
   -moz-tab-size: 4;
   -o-tab-size: 4;
   tab-size: 4;
@@ -27,6 +27,8 @@ pre[class*="language-"] {
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
+  content: counter(lineNumber);
+  counter-increment: lineNumber;
 }
 
 /* Code blocks */
