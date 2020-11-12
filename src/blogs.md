@@ -1,5 +1,5 @@
 ---
-layout: layout.liquid
+layout: layout.njk
 pageTitle: Come and read a blog or two!
 ---
 

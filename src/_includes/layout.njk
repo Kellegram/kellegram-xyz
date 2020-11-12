@@ -5,11 +5,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Kellegram" />
-        <!-- Capture css -->
-        {% capture css %}
-            {% include "/src/styles/prism.css" %}
-            {% include "/src/styles/main.css" %}
-        {% endcapture %}
+        <!-- Capture cc -->
+        {% set css %}
+            {% include "/styles/main.css" %}
+            {% include "/styles/prism.css" %}
+        {% endset %}
         <!-- Minify it -->
         <style>
             {{ css | cssmin | safe }}

@@ -1,5 +1,5 @@
 ---
-layout: layout.liquid
+layout: layout.njk
 pageTitle: What I do after installing Pop!_OS
 ---
 
