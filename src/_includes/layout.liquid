@@ -5,8 +5,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Kellegram" />
-        <link href="/styles/main.css" rel="stylesheet">
-        <link href="/styles/prism.css" rel="stylesheet">
+        <!-- Capture cc -->
+        {% set css %}
+            {% include "/styles/prism.css" %}
+            {% include "/styles/main.css" %}
+        {% endset %}
+        <!-- Minify it -->
+        <style>
+            {{ css | cssmin | safe }}
+        </style>
         <link rel="shortcut icon" type="image/png" href="/assets/icons/favicon.png"/>
         <title>Kellegram dev</title>
     </head>
