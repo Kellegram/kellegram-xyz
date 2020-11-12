@@ -156,6 +156,6 @@ nav a:hover {
 /* Responsive layout - if the screen is a touchscreen, ensure big tap area */
 @media (pointer: coarse) {
   a {
-   padding: .8em;
- }
+    padding: 0.8em 0em 0.8em 0em;
+  }
 }
