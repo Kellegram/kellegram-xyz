@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Kellegram" />
         <!-- Capture cc -->
-        {% set css %}
+        {% assign css %}
             {% include "/styles/prism.css" %}
             {% include "/styles/main.css" %}
-        {% endset %}
+        {% endassign %}
         <!-- Minify it -->
         <style>
             {{ css | cssmin | safe }}
