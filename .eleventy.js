@@ -13,7 +13,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
   return {
     passthroughFileCopy: true,
-    templateFormats: ["html", "md", "liquid"],
+    templateFormats: ["html", "md", "liquid", "njk"],
     dir: {
       input: "src",
       output: "_site",
