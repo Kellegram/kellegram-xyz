@@ -47,7 +47,7 @@ cd MangoHud
 ### Usage
 To enable MangoHud for a Steam game, add `mangohud %command%` in the game's launch options.
 **OpenGL** games may also need dlsym hooking. Add `MANGOHUD_DLSYM=1` alongside mangohud.
-Possible locations for the config file are written in the [repository](https://github.com/flightlessmango/MangoHud#hud-configuration)
+Possible locations for the config file are written in the [repository](https://github.com/flightlessmango/MangoHud#hud-configuration).
 
 ## Install vkBasalt
 [vkBasalt](https://github.com/DadSchoorse/vkBasalt) is a Vulkan post processing layer to enhance the visual graphics of games.
