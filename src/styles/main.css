@@ -152,3 +152,10 @@ nav a:hover {
     word-wrap: anywhere;
   }
 }
+
+/* Responsive layout - if the screen is a touchscreen, ensure big tap area */
+@media (pointer: coarse) {
+  a {
+   padding: .8em;
+ }
+}
