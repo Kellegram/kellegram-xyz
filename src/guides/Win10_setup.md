@@ -7,7 +7,7 @@ pageTitle: My Windows 10 setup
 
 While I use Windows 10 less and less, I am still forced to use it in certain cases. As of right now to set it up I use a single script, which is a fork of ChrisTitusTech's script. It was already very close to what I would do anyway.
 
-### The script is to be installed after installing and updating Windows
+## The script is to be installed after installing and updating Windows
 
 ```powershell
 powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/JUbtQ')"
