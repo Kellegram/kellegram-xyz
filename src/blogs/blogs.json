@@ -1,5 +1,5 @@
 {
-    "layout": "blog.liquid",
+    "layout": "blog.njk",
     "tags": [
         "blogs"
     ]

@@ -1,7 +1,3 @@
----
-title: Kellegram dev
----
-
 <!doctype html>
 <html lang="en">
 
@@ -9,6 +5,7 @@ title: Kellegram dev
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Kellegram" />
+        <meta name="description" content="{{  | }}">
         <!-- Capture cc -->
         {% set css %}
             {% include "src/styles/main.css" %}
@@ -19,7 +16,7 @@ title: Kellegram dev
             {{ css | cssmin | safe }}
         </style>
         <link rel="shortcut icon" type="image/png" href="/assets/icons/favicon.png"/>
-        <title>Kellegram dev</title>
+        <title>{{pageTitle}}</title>
     </head>
 
     <body>
