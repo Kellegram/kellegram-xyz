@@ -25,6 +25,3 @@ Here you can find my blogs and guides, as well as current ways of contacting me.
 * Pages are generated with the help of the [Eleventy](https://www.11ty.dev/) Static Site Generator.
 * Credits to [DigitalOcean](https://www.digitalocean.com/community/tutorials) for their great tutorials.
 * This website is built without any JavaScript.
-
-
-
