@@ -21,7 +21,7 @@ module.exports = function (eleventyConfig) {
   );
   eleventyConfig.addPlugin(pluginTOC, {
       tags: ['h1', 'h2', 'h3'], // Which heading tags are selected (headings must each have an ID attribute)
-      wrapper: 'nav',       // Element to put around the root `ol`
+      wrapper: 'section',       // Element to put around the root `ol`
       wrapperClass: 'toc',  // Class for the element around the root `ol`
       headingText: 'Table of Contents',      // Optional text to show in heading above the wrapper element
       headingTag: 'h1'      // Heading tag when showing heading above the wrapper element
