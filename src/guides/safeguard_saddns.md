@@ -10,7 +10,7 @@ In this post I will use certain terms that you might be unfamiliar with, therefo
 [DNS](https://en.wikipedia.org/wiki/Domain_Name_System) stands for Domain Name System and it's an internet protocol used for translating the human readable URLs (for example www.kellegram.xyz) into computer recognizable IP addresses, that are needed for your devices to find and connect to servers worldwide. 
 
 ## DNS as an area for exploits
-There are many ways to attack user's computers over the web and targeting DNS resolvers is one of them. One such exploit, called [DNS spoofing](https://en.wikipedia.org/wiki/DNS_spoofing), also known as DNS cache poisoning was used many years ago, but eventually the known methods were patches. Unfortunately many DNS resolves, especially the ones used by Internet Service Providers did not take all necessary steps to secure their networks and in turn yours.
+There are many ways to attack user's computers over the web and targeting DNS resolvers is one of them. One such exploit, called [DNS spoofing](https://en.wikipedia.org/wiki/DNS_spoofing), also known as DNS cache poisoning was used many years ago, but eventually the known methods were patched. Unfortunately many DNS resolves, especially the ones used by Internet Service Providers did not take all necessary steps to secure their networks and in turn yours.
 
 ## How is DNS poisoning performed?
 The attack is performed by corrupting the DNS data in the [DNS resolver's](https://en.wikipedia.org/wiki/Domain_Name_System#DNS_resolvers) cache, which in turn causes the name server to return wrong information, for example a diff than expected IP address. This can be used to direct your traffic to a diff destination, for example an attacker's server.
