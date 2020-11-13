@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: guide.njk
 pageTitle: My firefox setup
 ---
 

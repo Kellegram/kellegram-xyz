@@ -5,10 +5,18 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Kellegram" />
-        <link href="/styles/main.css" rel="stylesheet">
-        <link href="/styles/prism.css" rel="stylesheet">
+        <meta name="description" content="Here I will post my thoughts in the form of blogs, as well as my setup guides, to make my life easier and possibly yours. Linux, Windows, anything goes.">
+        <!-- Capture cc -->
+        {% set css %}
+            {% include "src/styles/main.css" %}
+            {% include "src/styles/prism.css" %}
+        {% endset %}
+        <!-- Minify it -->
+        <style>
+            {{ css | cssmin | safe }}
+        </style>
         <link rel="shortcut icon" type="image/png" href="/assets/icons/favicon.png"/>
-        <title>Kellegram dev</title>
+        <title>{{pageTitle}}</title>
     </head>
 
     <body>
@@ -18,7 +26,7 @@
                 <!-- Create the page header bar -->
                 <header>
                     <h1>KELLEGRAM'S LAIR</h1>
-                    <p>A coding mastermind.</p>
+                    <p>My personal guides.</p>
                 </header>
 
                 <!-- Create the 2 rows that the main page is split into -->
@@ -39,10 +47,12 @@
                             <a href="https://github.com/Kellegram"><img src="/assets/icons/github-fill.svg"
                                     alt="Link to my github" style="width:42px;height:42px;"></a>
                         </div>
-
                     </div>
                     <div class="main">
-                        {{content}}
+                        <aside>
+                            {{ content | toc | safe }}
+                        </aside>
+                        {{content | safe}}
                     </div>
                 </div>
             </div>

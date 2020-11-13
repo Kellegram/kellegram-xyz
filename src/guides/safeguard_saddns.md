@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: guide.njk
 pageTitle: How to safeguard your network against Sad DNS
 ---
 
