@@ -4,19 +4,19 @@ pageTitle: How to safeguard your network against Sad DNS
 ---
 
 # Explaining some terms
-In this post I will use certain terms that you might be unfamiliar with, therefore I will firt provide a brief explanation with sources.
+In this post I will use certain terms that you might be unfamiliar with, therefore I will first provide a brief explanation with sources.
 
 ## What is DNS?
-[DNS](https://en.wikipedia.org/wiki/Domain_Name_System) stands for Domain Name System and it's an internet protocol used for translating the human readable URLs (for example www.kellegram.xyz) into computer recognizable IP adresses, that are needed for your devices to find and connect to servers worldwide. 
+[DNS](https://en.wikipedia.org/wiki/Domain_Name_System) stands for Domain Name System and it's an internet protocol used for translating the human readable URLs (for example www.kellegram.xyz) into computer recognizable IP addresses, that are needed for your devices to find and connect to servers worldwide. 
 
 ## DNS as an area for exploits
-There are many ways to attack user's computers over the web and targetting DNS resolves is one of them. One such exploit, called [DNS spoofing](https://en.wikipedia.org/wiki/DNS_spoofing), also known as DNS cache poisoning was used many years ago, but eventually the known methods were patches. Unfortunately many DNS resolves, especially the ones used by Internet Service Providers did not take all necessary steps to secure their networks and in turn yours.
+There are many ways to attack user's computers over the web and targeting DNS resolves is one of them. One such exploit, called [DNS spoofing](https://en.wikipedia.org/wiki/DNS_spoofing), also known as DNS cache poisoning was used many years ago, but eventually the known methods were patches. Unfortunately many DNS resolves, especially the ones used by Internet Service Providers did not take all necessary steps to secure their networks and in turn yours.
 
 ## How is DNS poisoning performed?
 The attack is performed by corrupting the DNS data in the [DNS resolver's](https://en.wikipedia.org/wiki/Domain_Name_System#DNS_resolvers) cache, which in turn causes the name server to return wrong information, for example a diff than expected IP address. This can be used to direct your traffic to a diff destination, for example an attacker's server.
 
 ## So what is the Sad DNS attack?
-SAD DNS (**S**ide channel **A**ttacke**D** **DNS**) attack is the first weaponizable netword side channel attack and it allows the attacker to inject malicious DNS records into a DNS cache. These network side channels are part of all modern operating systems, including Linux, Windows and MacOS. This means that both desktop systems as well as servers using a DNS resolved can be affected.
+SAD DNS (**S**ide channel **A**ttacke**D** **DNS**) attack is the first weaponizable network side channel attack and it allows the attacker to inject malicious DNS records into a DNS cache. These network side channels are part of all modern operating systems, including Linux, Windows and MacOS. This means that both desktop systems as well as servers using a DNS resolved can be affected.
 
 # Addressing SAD DNS
 
