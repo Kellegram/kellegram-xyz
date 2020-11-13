@@ -86,7 +86,10 @@ header {
   overflow: auto;
   border: solid 2px #b7432e;
 }
-
+a {
+  text-decoration-thickness: .1em;
+  text-underline-offset: 0.12em;
+}
 a:link {
   color: var(--default-accent);
 }
