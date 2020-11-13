@@ -120,8 +120,8 @@ nav a:hover {
 
 /* Style blockquotes */
 blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
+  background:black;
+  border-left: 10px solid #e4d656;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
