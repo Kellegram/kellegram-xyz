@@ -160,6 +160,9 @@ section li:before { content: counters(list-item,'.') ' '; }
     padding: 30px;
   }
 
+  body {
+    font-size: 1.25em;
+  }
   .side a {
     float: left;
   }
@@ -183,6 +186,10 @@ section li:before { content: counters(list-item,'.') ' '; }
   pre {
     word-wrap: anywhere;
   }
+}
+
+body {
+  font-size: 1.15em;
 }
 
 /* Responsive layout - if the screen is a touchscreen, ensure big tap area */
