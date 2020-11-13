@@ -1,6 +1,5 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const CleanCSS = require("clean-css");
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 const pluginTOC = require("eleventy-plugin-nesting-toc");
@@ -20,8 +19,13 @@ module.exports = function (eleventyConfig) {
           typographer: true,
       }).use(markdownItAnchor, {})
   );
-  eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  eleventyConfig.addPlugin(pluginTOC);
+  eleventyConfig.addPlugin(pluginTOC, {
+      tags: ['h1', 'h2', 'h3'], // Which heading tags are selected (headings must each have an ID attribute)
+      wrapper: 'nav',       // Element to put around the root `ol`
+      wrapperClass: 'toc',  // Class for the element around the root `ol`
+      headingText: 'Table of Contents',      // Optional text to show in heading above the wrapper element
+      headingTag: 'h1'      // Heading tag when showing heading above the wrapper element
+  });
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("src/styles");
   eleventyConfig.addPassthroughCopy("src/assets");
