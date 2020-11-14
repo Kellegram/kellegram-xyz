@@ -15,7 +15,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(markdownItAnchor, {
     level: 1,
     // slugify: string => string,
-    permalink: false,
+    permalink: true,
     // renderPermalink: (slug, opts, state, permalink) => {},
     permalinkClass: 'header-anchor',
     permalinkSymbol: '¶',
