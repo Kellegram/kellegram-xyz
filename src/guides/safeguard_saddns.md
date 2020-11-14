@@ -4,6 +4,7 @@ pageTitle: How to safeguard your network against Sad DNS
 ---
 
 # Explaining some terms
+***
 In this post I will use certain terms that you might be unfamiliar with, therefore I will first provide a brief explanation with sources.
 
 ## What is DNS?
@@ -19,8 +20,7 @@ The attack is performed by corrupting the DNS data in the [DNS resolver's](https
 SAD DNS (**S**ide channel **A**ttacke**D** **DNS**) attack is the first weaponizable network side channel attack and it allows the attacker to inject malicious DNS records into a DNS cache. These network side channels are part of all modern operating systems, including Linux, Windows and MacOS. This means that both desktop systems as well as servers using a DNS resolved can be affected.
 
 # Addressing SAD DNS
-
-
+***
 ## Am I vulnerable? 
 Probably. A website was created to test whether the DNS provider that you use is vulnerable, [here](https://789498207.www.saddns.net/). It also contains a lot of relevant information, including a Q&A which I recommend reading to learn more about this exploit. 
 
@@ -57,5 +57,6 @@ Yes. I will keep all known methods of addressing this issue updated here.
 
 
 # Resources
+***
 - [ZDNET article](https://www.zdnet.com/article/dns-cache-poisoning-poised-for-a-comeback-sad-dns/)
 - [SAD DNS webpage](https://789498207.www.saddns.net/)
