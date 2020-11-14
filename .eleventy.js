@@ -17,7 +17,7 @@ module.exports = function (eleventyConfig) {
     // slugify: string => string,
     permalink: true,
     // renderPermalink: (slug, opts, state, permalink) => {},
-    permalinkClass: 'header-anchor',
+    permalinkClass: 'toc',
     permalinkSymbol: '¶',
     permalinkBefore: false
   });
