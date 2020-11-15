@@ -12,15 +12,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("cssmin", function(code) {
     return new CleanCSS({}).minify(code).styles;
   });
-  eleventyConfig.addPlugin(markdownItAnchor, {
-    level: 1,
-    // slugify: string => string,
-    permalink: true,
-    // renderPermalink: (slug, opts, state, permalink) => {},
-    permalinkClass: 'toc',
-    permalinkSymbol: '¶',
-    permalinkBefore: false
-  });
 
   eleventyConfig.setLibrary("md",
       markdownIt({
