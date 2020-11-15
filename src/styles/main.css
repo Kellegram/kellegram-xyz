@@ -38,7 +38,7 @@ h6 {
   color: var(--header-text);
 }
 
-header h1 {
+header h1 a {
   text-decoration: none;
 }
 
