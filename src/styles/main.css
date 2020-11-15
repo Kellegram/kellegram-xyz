@@ -142,6 +142,22 @@ blockquote p {
   display: inline;
 }
 
+/* Style tables */
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+th { 
+  background: black;  
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+
+
 /* For automatic table of contents */
 html { scroll-behavior: smooth; }
  
