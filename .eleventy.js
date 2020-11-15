@@ -1,31 +1,31 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const CleanCSS = require("clean-css");
-const markdownIt = require('markdown-it');
-const markdownItAnchor = require('markdown-it-anchor');
+const markdownIt = require("markdown-it");
+const markdownItAnchor = require("markdown-it-anchor");
 const pluginTOC = require("eleventy-plugin-nesting-toc");
 
 module.exports = function (eleventyConfig) {
-
   eleventyConfig.addPlugin(syntaxHighlight, {
     alwaysWrapLineHighlights: false,
   });
-  eleventyConfig.addFilter("cssmin", function(code) {
+  eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
   });
 
-  eleventyConfig.setLibrary("md",
-      markdownIt({
-          html: true,
-          linkify: true,
-          typographer: true,
-      }).use(markdownItAnchor, {})
+  eleventyConfig.setLibrary(
+    "md",
+    markdownIt({
+      html: true,
+      linkify: true,
+      typographer: true,
+    }).use(markdownItAnchor, {})
   );
   eleventyConfig.addPlugin(pluginTOC, {
-      tags: ['h1', 'h2', 'h3'], // Which heading tags are selected (headings must each have an ID attribute)
-      wrapper: 'section',       // Element to put around the root `ol`
-      wrapperClass: 'toc',  // Class for the element around the root `ol`
-      headingText: 'Table of Contents',      // Optional text to show in heading above the wrapper element
-      headingTag: 'h1'      // Heading tag when showing heading above the wrapper element
+    tags: ["h1", "h2", "h3"], // Which heading tags are selected (headings must each have an ID attribute)
+    wrapper: "section", // Element to put around the root `ol`
+    wrapperClass: "toc", // Class for the element around the root `ol`
+    headingText: "Table of Contents", // Optional text to show in heading above the wrapper element
+    headingTag: "h1", // Heading tag when showing heading above the wrapper element
   });
   eleventyConfig.addPassthroughCopy("assets");
   eleventyConfig.addPassthroughCopy("src/styles");
@@ -41,18 +41,3 @@ module.exports = function (eleventyConfig) {
     },
   };
 };
-
-var hljs = require('highlight.js'); // https://highlightjs.org/
-
-// Actual default values
-var md = require('markdown-it')({
-  highlight: function (str, lang) {
-    if (lang && hljs.getLanguage(lang)) {
-      try {
-        return hljs.highlight(lang, str).value;
-      } catch (__) {}
-    }
-
-    return ''; // use external default escaping
-  }
-});
