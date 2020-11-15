@@ -41,6 +41,9 @@ h6 {
 header h1 a {
   text-decoration: none;
 }
+header h1 a:visited {
+  color:unset;
+}
 
 h4 {
   vertical-align: bottom;
