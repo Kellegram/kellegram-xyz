@@ -1,7 +1,7 @@
 /* standard theme*/
 :root {
   /* Default */
-  --default-text:#f7df9a;
+  --default-text: #f7df9a;
   --header-text: #db931f;
   --default-accent: #ff4321;
   --default-fill: black;
@@ -87,7 +87,7 @@ header {
   border: solid 2px #b7432e;
 }
 a {
-  text-decoration-thickness: .1em;
+  text-decoration-thickness: 0.1em;
   text-underline-offset: 0.12em;
 }
 a:link {
@@ -123,7 +123,7 @@ nav a:hover {
 
 /* Style blockquotes */
 blockquote {
-  background:black;
+  background: black;
   border-left: 10px solid #e4d656;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
@@ -131,7 +131,7 @@ blockquote {
   font-style: italic;
 }
 blockquote:before {
-  color:#e4d656;
+  color: #e4d656;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
@@ -142,31 +142,23 @@ blockquote p {
   display: inline;
 }
 
-/* Style tables */
-table { 
-  width: 100%; 
-  border-collapse: collapse; 
-}
-th { 
-  background: black;  
-  font-weight: bold; 
-}
-td, th { 
-  padding: 6px; 
-  border: 1px solid #ccc; 
-  text-align: left; 
-}
-
-
 /* For automatic table of contents */
-html { scroll-behavior: smooth; }
- 
-section ol { counter-reset: list-item; }
-section li { display: block; counter-increment: list-item; }
-section li:before { content: counters(list-item,'.') ' '; }
+html {
+  scroll-behavior: smooth;
+}
 
+section ol {
+  counter-reset: list-item;
+}
+section li {
+  display: block;
+  counter-increment: list-item;
+}
+section li:before {
+  content: counters(list-item, ".") " ";
+}
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 900px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 900px) {
   .row {
     flex-direction: column;
@@ -184,7 +176,7 @@ section li:before { content: counters(list-item,'.') ' '; }
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 480px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 480px) {
   .page {
     padding-top: 0.7rem;
@@ -202,7 +194,7 @@ section li:before { content: counters(list-item,'.') ' '; }
   pre {
     word-wrap: anywhere;
   }
-  
+
   body {
     font-size: 1.15em;
   }
@@ -212,58 +204,5 @@ section li:before { content: counters(list-item,'.') ' '; }
 @media (pointer: coarse) {
   a {
     padding: 0.8em 0em 0.8em 0em;
-  }
-}
-
-/* 
-Max width before this PARTICULAR table gets nasty
-This query will take effect for any screen smaller than 760px
-and also iPads specifically.
-*/
-@media 
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
-
-	/* Force table to not be like tables anymore */
-	table, thead, tbody, th, td, tr { 
-		display: block; 
-	}
-	
-	/* Hide table headers (but not display: none;, for accessibility) */
-	thead tr { 
-		position: absolute;
-		top: -9999px;
-		left: -9999px;
-	}
-	
-	tr { border: 1px solid #ccc; }
-	
-	td { 
-		/* Behave  like a "row" */
-		border: none;
-		border-bottom: 1px solid #eee; 
-		position: relative;
-		padding-left: 50%; 
-	}
-	
-	td:before { 
-		/* Now like a table header */
-		position: absolute;
-		/* Top/left values mimic padding */
-		top: 6px;
-		left: 6px;
-		width: 45%; 
-		padding-right: 10px; 
-		white-space: nowrap;
-  }
-
-  td:nth-of-type(1):before { content: "DNS resolver"; }
-	td:nth-of-type(2):before { content: "IPV4 address"; }
-  td:nth-of-type(3):before { content: "Fallback address"; }
-  
-  /* Zebra striping */
-tr:nth-of-type(odd) { 
-  background: #333;
-  color: #ffdd7c;
   }
 }

@@ -57,28 +57,24 @@ Yes. Some of these you really should be doing regardless, but with this attack m
 
 <span style="color:red"> **VULNERABLE!**</span> - Do NOT use!
 
-| DNS resolver   | Address(IPV4)  | Fallback address |
-| -------------- | -------------- | ---------------- |
-| Cloudflare     | 1.1.1.1        | 1.0.0.1          |
-| Cisco Open DNS | 208.67.222.222 | 208.67.220.220   |
-| SkyDNS RU      | 193.58.251.251 | none             |
-| Comss.ru DNS   | 92.38.152.163  | 93.115.24.204    |
+* [Cloudflare](https://1.1.1.1/)
+* [Cisco Open DNS](https://www.opendns.com/)
+* [SkyDNS RU](https://www.skydns.ru/en/)
+* [Comss.ru DNS](https://www.comss.ru/page.php)
 
 <span style="color:green"> **SAFE**</span> - These _should_ be safe to use
 
-| DNS resolver           | Address(IPV4) | Fallback address |
-| ---------------------- | ------------- | ---------------- |
-| AdGuard DNS Default    | 94.140.14.14  | 94.140.15.15     |
-| AdGuard DNS Unfiltered | 94.140.14.140 | 94.140.14.141    |
-| Quad9 DNS              | 9.9.9.9       | 149.112.112.112  |
-| Google DNS             | 8.8.8.8       | 8.8.4.4          |
-| Yandex DNS             | 77.88.8.8     | 77.88.8.1        |
-| CleanBrowsing DNS      | 185.228.168.9 | 185.228.169.9    |
-| Comodo DNS             | 8.26.56.26    | 8.20.247.20      |
-| Neustar DNS            | 156.154.70.1  | 156.154.71.1     |
-| Verisign DNS           | 64.6.64.6     | 64.6.65.6        |
-| Dyn DNS                | 216.146.35.35 | 216.146.36.36    |
-| DNS.WATCH              | 84.200.69.80  | 84.200.70.40     |
+ * [AdGuard DNS Default](https://adguard.com/en/adguard-dns/overview.html#instruction)
+ * [AdGuard DNS Unfiltered](https://adguard.com/en/adguard-dns/overview.html#instruction)
+ * [Quad9 DNS](https://quad9.net/)
+ * [Google DNS](https://developers.google.com/speed/public-dns/)
+ * [Yandex DNS](https://dns.yandex.com/)
+ * [CleanBrowsing DNS](https://cleanbrowsing.org/)
+ * [Comodo DNS](https://comodo.com/secure-dns/)
+ * [Neustar DNS](https://www.security.neustar/digital-performance/dns-services/recursive-dns)
+ * [Verisign DNS](https://www.verisign.com/security-services/public-dns/)
+ * [Dyn DNS](https://help.dyn.com/internet-guide-setup/)
+ * [DNS.WATCH](https://dns.watch/)
 
 ---
 
