@@ -19,11 +19,11 @@ There are many ways to attack user's computers over the web and targeting DNS re
 
 ## How is DNS poisoning performed?
 
-The attack is performed by corrupting the DNS data in the [DNS resolver's](https://en.wikipedia.org/wiki/Domain_Name_System#DNS_resolvers) cache, which in turn causes the name server to return wrong information, for example a diff than expected IP address. This can be used to direct your traffic to a diff destination, for example an attacker's server.
+The attack is performed by corrupting the DNS data in the [DNS resolver's](https://en.wikipedia.org/wiki/Domain_Name_System#DNS_resolvers) cache, which in turn causes the name server to return wrong information, for example a different than expected IP address. This can be used to direct your traffic to a different destination, for example an attacker's server.
 
 ## So what is the Sad DNS attack?
 
-SAD DNS (**S**ide channel **A**ttacke**D** **DNS**) attack is the first weaponizable network side channel attack and it allows the attacker to inject malicious DNS records into a DNS cache. These network side channels are part of all modern operating systems, including Linux, Windows and MacOS. This means that both desktop systems as well as servers using a DNS resolved can be affected.
+SAD DNS (**S**ide channel **A**ttacke**D** **DNS**) attack is the first weaponizable network side channel attack and it allows the attacker to inject malicious DNS records into a DNS cache. These network side channels are part of all modern operating systems, including Linux, Windows and MacOS. This means that both desktop systems as well as servers using a DNS resolver can be affected.
 
 # Addressing SAD DNS
 
@@ -35,7 +35,7 @@ Probably. A website was created to test whether the DNS provider that you use is
 
 As stated on the website:
 
-> [...] as long as you are using a vulnerable DNS service (e.g., 8.8.8.8 or 1.1.1.1). Most public resolvers have been checked to be vulnerable. If you are using private DNS services (i.e., those provided by your ISP or your organization), we do not have sufficient data but there is a good chance that it is vulnerable as well.
+> [...] as long as you are using a vulnerable DNS service (e.g., [...]1.1.1.1). Most public resolvers have been checked to be vulnerable. If you are using private DNS services (i.e., those provided by your ISP or your organization), we do not have sufficient data but there is a good chance that it is vulnerable as well.
 
 ## Can I do something as a user?
 
@@ -44,7 +44,7 @@ Yes. Some of these you really should be doing regardless, but with this attack m
 - Do **NOT** go on HTTP sites. This is best practice regardless of whether SAD DNS existed or not.
   - Always make sure that you are only using websites that are secured via HTTP over TLS/SSL (it's where a website URL starts with HTTPS instead of HTTP).
   - You can make this easier by installing the [HTTPS Everywhere](https://www.eff.org/https-everywhere) and setting it to [Encrypt All Sites Eligible](https://i.imgur.com/E09Ejvq.png)
-- Switch to a DNS provider that has the vulnerabilities patched. I will provide a list of vulnerable as well as safe providers when such list is made.
+- Switch to a DNS provider that has the vulnerabilities patched. I will provide a list of vulnerable as well as safe providers down below.
   - Change it network-wide (This is will depend on your router's firmware, therefore you will have to find out how it's done on your particular model if you don't yet know)
   - Guides on changing your DNS provider per device can be found here:
     - [Windows](https://www.windowscentral.com/how-change-your-pcs-dns-settings-windows-10)
@@ -69,13 +69,13 @@ Yes. Some of these you really should be doing regardless, but with this attack m
 | DNS resolver           | Address(IPV4) | Fallback address |
 | ---------------------- | ------------- | ---------------- |
 | AdGuard DNS Default    | 94.140.14.14  | 94.140.15.15     |
-| Adguard DNS Unfiltered | 94.140.14.140 | 94.140.14.141    |
+| AdGuard DNS Unfiltered | 94.140.14.140 | 94.140.14.141    |
 | Quad9 DNS              | 9.9.9.9       | 149.112.112.112  |
 | Google DNS             | 8.8.8.8       | 8.8.4.4          |
 | Yandex DNS             | 77.88.8.8     | 77.88.8.1        |
 | CleanBrowsing DNS      | 185.228.168.9 | 185.228.169.9    |
 | Comodo DNS             | 8.26.56.26    | 8.20.247.20      |
-| Neustar                | 156.154.70.1  | 156.154.71.1     |
+| Neustar DNS            | 156.154.70.1  | 156.154.71.1     |
 | Verisign DNS           | 64.6.64.6     | 64.6.65.6        |
 | Dyn DNS                | 216.146.35.35 | 216.146.36.36    |
 | DNS.WATCH              | 84.200.69.80  | 84.200.70.40     |
