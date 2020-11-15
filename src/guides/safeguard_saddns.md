@@ -15,7 +15,7 @@ In this post I will use certain terms that you might be unfamiliar with, therefo
 
 ## DNS as an area for exploits
 
-There are many ways to attack user's computers over the web and targeting DNS resolvers is one of them. One such exploit, called [DNS spoofing](https://en.wikipedia.org/wiki/DNS_spoofing), also known as DNS cache poisoning was used many years ago, but eventually the known methods were patched. Unfortunately many DNS resolves, especially the ones used by Internet Service Providers did not take all necessary steps to secure their networks and in turn yours.
+There are many ways to attack user's computers over the web and targeting DNS resolvers is one of them. One such exploit, called [DNS spoofing](https://en.wikipedia.org/wiki/DNS_spoofing), also known as DNS cache poisoning was used many years ago, but eventually the known methods were patched. Unfortunately many DNS resolvers, especially the ones used by Internet Service Providers did not take all necessary steps to secure their networks and in turn yours.
 
 ## How is DNS poisoning performed?
 
