@@ -57,24 +57,26 @@ Yes. Some of these you really should be doing regardless, but with this attack m
 
 <span style="color:red"> **VULNERABLE!**</span> - Do NOT use!
 
-* [Cloudflare](https://1.1.1.1/)
-* [Cisco Open DNS](https://www.opendns.com/)
-* [SkyDNS RU](https://www.skydns.ru/en/)
-* [Comss.ru DNS](https://www.comss.ru/page.php)
+* [AdGuard DNS Default](https://adguard.com/en/adguard-dns/overview.html#instruction)
+* [AdGuard DNS Unfiltered](https://adguard.com/en/adguard-dns/overview.html#instruction)
+* [Yandex DNS](https://dns.yandex.com/)
+* [CleanBrowsing DNS](https://cleanbrowsing.org/)
+* [Cisco DNS](https://www.opendns.com/)
+* [Google DNS](https://developers.google.com/speed/public-dns/)
+* [Quad9 DNS](https://quad9.net/)
+* [Verisign DNS](https://www.verisign.com/security-services/public-dns/)
+* [DNS.WATCH DNS](https://dns.watch/)
 
 <span style="color:green"> **SAFE**</span> - These _should_ be safe to use
 
- * [AdGuard DNS Default](https://adguard.com/en/adguard-dns/overview.html#instruction)
- * [AdGuard DNS Unfiltered](https://adguard.com/en/adguard-dns/overview.html#instruction)
- * [Quad9 DNS](https://quad9.net/)
- * [Google DNS](https://developers.google.com/speed/public-dns/)
- * [Yandex DNS](https://dns.yandex.com/)
- * [CleanBrowsing DNS](https://cleanbrowsing.org/)
- * [Comodo DNS](https://comodo.com/secure-dns/)
- * [Neustar DNS](https://www.security.neustar/digital-performance/dns-services/recursive-dns)
- * [Verisign DNS](https://www.verisign.com/security-services/public-dns/)
+ * [Cloudflare](https://1.1.1.1/)
+ * [Comodo Secure DNS](https://comodo.com/secure-dns/)
+ * [Neustar UltraDNS](https://www.security.neustar/digital-performance/dns-services/recursive-dns)
+ * [SWITCH DNS](https://www.switch.ch/security/info/public-dns/)
  * [Dyn DNS](https://help.dyn.com/internet-guide-setup/)
- * [DNS.WATCH](https://dns.watch/)
+ * [SkyDNS RU](https://www.skydns.ru/en/)
+
+
 
 ---
 
