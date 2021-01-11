@@ -53,7 +53,7 @@ Yes. Some of these you really should be doing regardless, but with this attack m
     - [Android](https://www.androidpolice.com/2020/03/26/make-android-use-dns-server-choice/)
     - [iOS](https://gadgets.ndtv.com/mobiles/features/how-to-change-dns-server-on-iphone-ipad-or-ipod-touch-1671813)
 
-## Become your own resolver
+- <span style="color:#db931f">Become your own resolver</span>
 
 You can never trust the companies to fix vulnerabilities on time, or at all for that matter. The safest way to go about this, is to become your own DNS resolver. One such way is to use [Unbound](https://www.nlnetlabs.nl/projects/unbound/about/). From the official description: "Unbound is a validating, recursive, and caching DNS resolver product from NLnet Labs. It is distributed free of charge in open-source form under the BSD license." 
 
@@ -63,11 +63,7 @@ Guides on setting up Unbound:
   - A guide by me coming soon-ish
 
 
----
 
-This list is by no means exhaustive. If you are using a DNS provided by your ISP you should change this, ISP DNS servers are almost always sub-par and and might be used to log your queries or might simply be slower than some of the servers listed.
-
-[>> Remember to check your DNS by clicking me <<](https://789498207.www.saddns.net/)
 
 ## Can I do something if I have a private DNS?
 
