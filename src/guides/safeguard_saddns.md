@@ -44,7 +44,7 @@ Yes. Some of these you really should be doing regardless, but with this attack m
 - Do **NOT** go on HTTP sites. This is best practice regardless of whether SAD DNS existed or not.
   - Always make sure that you are only using websites that are secured via HTTP over TLS/SSL (it's where a website URL starts with HTTPS instead of HTTP).
   - You can make this easier by installing the [HTTPS Everywhere](https://www.eff.org/https-everywhere) and setting it to [Encrypt All Sites Eligible](https://i.imgur.com/E09Ejvq.png)
-- Switch to a DNS provider that has the vulnerabilities patched. I will provide a list of vulnerable as well as safe providers down below.
+- Switch to a DNS provider that has the vulnerabilities patched. (Currently there is no 100% surefire way of knowing what provider is completely safe from the attack).
   - Change it network-wide (This is will depend on your router's firmware, therefore you will have to find out how it's done on your particular model if you don't yet know)
   - Guides on changing your DNS provider per device can be found here:
     - [Windows](https://www.windowscentral.com/how-change-your-pcs-dns-settings-windows-10)
@@ -53,30 +53,14 @@ Yes. Some of these you really should be doing regardless, but with this attack m
     - [Android](https://www.androidpolice.com/2020/03/26/make-android-use-dns-server-choice/)
     - [iOS](https://gadgets.ndtv.com/mobiles/features/how-to-change-dns-server-on-iphone-ipad-or-ipod-touch-1671813)
 
-### Tested DNS resolvers
+## Become your own resolver
 
-<span style="color:red"> **VULNERABLE!**</span> - Do NOT use!
-
-* [AdGuard DNS Default](https://adguard.com/en/adguard-dns/overview.html#instruction)
-* [AdGuard DNS Unfiltered](https://adguard.com/en/adguard-dns/overview.html#instruction)
-* [Yandex DNS](https://dns.yandex.com/)
-* [CleanBrowsing DNS](https://cleanbrowsing.org/)
-* [Cisco OpenDNS](https://www.opendns.com/)
-* [Google DNS](https://developers.google.com/speed/public-dns/)
-* [Quad9 DNS](https://quad9.net/)
-* [Verisign DNS](https://www.verisign.com/security-services/public-dns/)
-* [DNS.WATCH DNS](https://dns.watch/)
-* [Cloudflare](https://1.1.1.1/)
-
-<span style="color:green"> **SAFE**</span> - These _should_ be safe to use
+You can never trust the companies to fix vulnerabilities on time, or at all for that matter. The safest way to go about this, is to become your own DNS resolver. One such way is to use [Unbound](https://www.nlnetlabs.nl/projects/unbound/about/). From the official description: "Unbound is a validating, recursive, and caching DNS resolver product from NLnet Labs. It is distributed free of charge in open-source form under the BSD license." 
 
 
- * [Comodo Secure DNS](https://comodo.com/secure-dns/)
- * [Neustar UltraDNS](https://www.security.neustar/digital-performance/dns-services/recursive-dns)
- * [SWITCH DNS](https://www.switch.ch/security/info/public-dns/)
- * [Dyn DNS](https://help.dyn.com/internet-guide-setup/)
- * [SkyDNS RU](https://www.skydns.ru/en/)
-
+Guides on setting up Unbound:
+  - https://dev.to/cipherops/how-to-use-unbound-with-adguard-home-1o5n
+  - A guide by me coming soon-ish
 
 
 ---
