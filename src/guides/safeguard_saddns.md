@@ -61,15 +61,16 @@ Yes. Some of these you really should be doing regardless, but with this attack m
 * [AdGuard DNS Unfiltered](https://adguard.com/en/adguard-dns/overview.html#instruction)
 * [Yandex DNS](https://dns.yandex.com/)
 * [CleanBrowsing DNS](https://cleanbrowsing.org/)
-* [Cisco DNS](https://www.opendns.com/)
+* [Cisco OpenDNS](https://www.opendns.com/)
 * [Google DNS](https://developers.google.com/speed/public-dns/)
 * [Quad9 DNS](https://quad9.net/)
 * [Verisign DNS](https://www.verisign.com/security-services/public-dns/)
 * [DNS.WATCH DNS](https://dns.watch/)
+* [Cloudflare](https://1.1.1.1/)
 
 <span style="color:green"> **SAFE**</span> - These _should_ be safe to use
 
- * [Cloudflare](https://1.1.1.1/)
+
  * [Comodo Secure DNS](https://comodo.com/secure-dns/)
  * [Neustar UltraDNS](https://www.security.neustar/digital-performance/dns-services/recursive-dns)
  * [SWITCH DNS](https://www.switch.ch/security/info/public-dns/)
