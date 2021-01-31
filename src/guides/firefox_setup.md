@@ -9,7 +9,7 @@ I do not agree with a lot of the default settings used in Firefox. I tweak it us
 
 ## Custom user.js
 
-I made a custom user.js file that can be found in [my repository](https://github.com/Kellegram/my-firefox-setup). It can be added to any firefox profile. Some settings may need to be tweaked depending on your machine or usage. I will outline those settings in the repository README.
+I made a custom user.js file that can be found in [my repository](https://github.com/Kellegram/my-firefox-setup). It can be added to any firefox profile. Some settings may need to be tweaked depending on your machine or usage. I will outline those settings in the repository README. This user.js was made from the [arkenfox user.js](https://github.com/arkenfox/user.js). 
 
 ### Applying the user.js file
 
@@ -54,17 +54,17 @@ You can enable the new DNS over HTTPS in settings, if it's not enabled by defaul
 
 There is a set of extensions that I install everywhere, including on Firefox mobile. A very good read about what extensions are good, secure and worth using is in Arkenfox's wiki in the [Extensions](https://github.com/arkenfox/user.js/wiki/4.1-Extensions) section.
 
-- [uBlock Origin](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/) - The best wide spectrum blocker. Many tweakable options. I use some [Energized](https://energized.pro/) customs lits alongside the defaults.
-- [HTTPS Everywhere](https://addons.mozilla.org/en-GB/firefox/addon/https-everywhere/) - A must have nowadays with "Encrypt All Sites Eligible" toggled on. There is almost no cases anymore where you would want to be on an HTTP site.
+- [uBlock Origin](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/) - The best wide spectrum blocker. Many tweakable options.
 - [Bitwarden](https://addons.mozilla.org/en-GB/firefox/addon/bitwarden-password-manager/) - A secure, FOSS password manager with cloud sync. I install it on all my devices.
-- [Request Control](https://addons.mozilla.org/en-US/firefox/addon/requestcontrol/) - Front-end for Firefox's request management API. I replaced [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) with this, as it does the same and more.
+- [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) Strip URLs of tracking parameters.
 - [xBrowserSync](https://addons.mozilla.org/en-US/firefox/addon/xbs/) - Secure syncing of bookmarks across devices. No sign up. Adds a search bar for browsing all bookmarks. Very convenient.
 - [Firemonkey](https://addons.mozilla.org/en-US/firefox/addon/firemonkey/) - Light, open source user-script **and** user-style manager.
 - [Terms of Service; Didn’t Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/) - Displays ratings for domain's terms & privacy policies, as well as any notable comments from users.
+- *[HTTPS Everywhere](https://addons.mozilla.org/en-GB/firefox/addon/https-everywhere/) - A must have nowadays with "Encrypt All Sites Eligible" toggled on. There is almost no cases anymore where you would want to be on an HTTP site.
+
+_* My user.js uses HTTPS-only mode instead now. If using my user.js do NOT get this extension!_
 
 ## Resources
 
 - Firefox DNS over HTTPS [guide](https://support.mozilla.org/en-US/kb/firefox-dns-over-https)
-- Archlinux Wiki [Firefox Tweaks](https://wiki.archlinux.org/index.php/Firefox/Tweaks) page
-- Archlinux Wiki [Firefox Privacy](https://wiki.archlinux.org/index.php/Firefox/Privacy) page
 - Arkenfox [user.js wiki](https://github.com/arkenfox/user.js/wiki)
