@@ -60,9 +60,11 @@ There is a set of extensions that I install everywhere, including on Firefox mob
 - [xBrowserSync](https://addons.mozilla.org/en-US/firefox/addon/xbs/) - Secure syncing of bookmarks across devices. No sign up. Adds a search bar for browsing all bookmarks. Very convenient.
 - [Firemonkey](https://addons.mozilla.org/en-US/firefox/addon/firemonkey/) - Light, open source user-script **and** user-style manager.
 - [Terms of Service; Didn’t Read](https://addons.mozilla.org/en-US/firefox/addon/terms-of-service-didnt-read/) - Displays ratings for domain's terms & privacy policies, as well as any notable comments from users.
-- *[HTTPS Everywhere](https://addons.mozilla.org/en-GB/firefox/addon/https-everywhere/) - A must have nowadays with "Encrypt All Sites Eligible" toggled on. There is almost no cases anymore where you would want to be on an HTTP site.
-
-_* My user.js uses HTTPS-only mode instead now. If using my user.js do NOT get this extension!_
+- [DownThemAll](https://addons.mozilla.org/en-GB/firefox/addon/downthemall/) - Mass downloader. Can help with finding a way to download some assets without using inspector.
+- [SponsorBlock](https://addons.mozilla.org/en-GB/firefox/addon/sponsorblock/) - Easily skip YouTube video sponsors.
+- [Web Archives](https://addons.mozilla.org/en-GB/firefox/addon/view-page-archive/) - View archived and cached versions of web pages on 10+ search engines.
+- [Firefox Multi-Account Containers](https://addons.mozilla.org/en-GB/firefox/addon/multi-account-containers/) - Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs that preserve your privacy.
+- [Skip Redirect](https://addons.mozilla.org/en-GB/firefox/addon/skip-redirect/) - Some web pages use intermediary pages before redirecting to a final page. This add-on tries to extract the final url from the intermediary url and goes there straight away if successful. Less break prone compared to some other alternatives.
 
 ## Resources
 
