@@ -54,7 +54,10 @@ You can enable the new DNS over HTTPS in settings, if it's not enabled by defaul
 
 There is a set of extensions that I install everywhere, including on Firefox mobile. A very good read about what extensions are good, secure and worth using is in Arkenfox's wiki in the [Extensions](https://github.com/arkenfox/user.js/wiki/4.1-Extensions) section.
 
-- [uBlock Origin](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/) - The best wide spectrum blocker. Many tweakable options.
+- [uBlock Origin](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/) - Wide spectrum blocker. Many tweakable options.  
+  Custom lists I use:
+  - Big blocklist that doesn't break websites: [oisd](https://abp.oisd.nl/)
+  - Alternative to [I don't care about cookies](https://addons.mozilla.org/en-GB/firefox/addon/i-dont-care-about-cookies/) extension: [idcac adblock version](https://www.i-dont-care-about-cookies.eu/abp/)
 - [Bitwarden](https://addons.mozilla.org/en-GB/firefox/addon/bitwarden-password-manager/) - A secure, FOSS password manager with cloud sync. I install it on all my devices.
 - [ClearURLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/) Strip URLs of tracking parameters.
 - [xBrowserSync](https://addons.mozilla.org/en-US/firefox/addon/xbs/) - Secure syncing of bookmarks across devices. No sign up. Adds a search bar for browsing all bookmarks. Very convenient.
