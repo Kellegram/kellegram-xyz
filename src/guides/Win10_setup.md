@@ -16,7 +16,7 @@ To install the Media Feature Pack, navigate to Settings > Apps > Apps and Featur
 
 
 ```powershell
-choco install jre8 firefox 7zip.install notepadplusplus.install vlc vcredist140 git.install openssh python3 malwarebytes autohotkey.portable teamviewer gimp vscode inkscape treesizefree k-litecodecpackfull winscp.install chocolateygui wireshark sumatrapdf.install irfanview microsoft-windows-terminal audacity everything qbittorrent steam tor-browser rufus cpu-z.install telegram.install etcher blender foobar2000 kitty discord handbrake sharex freefilesync obs-studio hwinfo element-desktop -y
+choco install jre8 firefox 7zip.install notepadplusplus.install vlc vcredist140 git.install openssh python3 malwarebytes autohotkey.portable teamviewer gimp vscode inkscape treesizefree k-litecodecpackfull winscp.install chocolateygui wireshark sumatrapdf.install irfanview microsoft-windows-terminal audacity everything qbittorrent steam tor-browser rufus cpu-z.install telegram.install etcher blender foobar2000 kitty teracopy discord handbrake sharex freefilesync obs-studio hwinfo element-desktop -y
 ```
 
 ## Resources
