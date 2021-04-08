@@ -1,0 +1,12 @@
+<ol reversed class="bloglist" style="counter-reset: start-from {{ (blogslistCounter or blogslist.length) + 1 }}">
+{% for blog in bloglist | reverse %}
+  <li class="bloglist-item{% if blog.url == url %} bloglist-item-active{% endif %}">
+    <a href="{{ blog.url | url }}" class="bloglist-link">{% if blog.data.title %}{{ blog.data.title }}{% else %}<code>{{ blog.url }}</code>{% endif %}</a>
+    <time class="bloglist-date" datetime="{{ blog.date | htmlDateString }}">{{ blog.date | readableDate }}</time>
+    {% for tag in blog.data.tags | filterTagList %}
+      {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+      <a href="{{ tagUrl | url }}" class="blog-tag">{{ tag }}</a>
+    {% endfor %}
+  </li>
+{% endfor %}
+</ol>
