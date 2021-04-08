@@ -1,6 +1,6 @@
 ---
-layout: guide.njk
-pageTitle: My Windows 10 setup
+layout: layout.njk
+title: My Windows 10 setup
 ---
 
 # How I set-up my Windows 10 install

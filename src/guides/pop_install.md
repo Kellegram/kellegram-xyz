@@ -1,6 +1,6 @@
 ---
-layout: guide.njk
-pageTitle: What I do after installing Pop!_OS
+layout: layout.njk
+title: What I do after installing Pop!_OS
 ---
 
 # My Pop!\_OS setup

@@ -1,0 +1,40 @@
+---
+title: Why school doesn't work
+date: 09-04-2021
+tags: [
+        "education",
+        "school",
+        "rant"
+    ]
+description: This is my blog/rant about education systems.
+layout: blog.njk
+---
+
+# On the global education systems
+
+## "Curiosity is the essence of our existence[...]" ~ Gene Cernan
+Us and other animals are curious by nature, we are born an explorer, from our very first breath we experiment with the surrounding world, we make mistakes, we keep making those mistakes, but then.. it clicks, we learn. This simple model of trial and error is how the nature itself shapes the world as we know it. Over billions of years this tried and true method lead us to this moment. So why is it, that despite having this understanding of how we learn and why it works, the education systems continue using inferior, archaic and illogical methods of teaching, that are designed to beat the curiosity out of our heads?
+
+
+## One size fits all... Or does it?
+"One size fits all", a term no doubt many people heard at least once before. Once meant to be a descriptor of products that fit everyone or everything in regards to size and shape, today being almost cliche, but is being universal or uniform always a positive? It feels like the progression of school just cannot agree with itself on how to proceed. When we are little, we are encouraged to use our curiosity to broaden our horizons, see how the world operates within our ability to understand. This doesn't last long however, it only takes a few years before we are plunged into the 7 gates of hell and the illusion breaks. 
+
+We are not truly equal, we are all different in some way, always have been, always will be. Despite that, the trials we are put through don't seem to be designed with this in mind. The system expects you to think and operate in one pre-defined way, there is no method to the madness, there is just one script that we all have to follow; on one hand we are showered with promises of choice and control over our path, but the other hand holds the strings and it only tugs on them harder the more you stray off the path.
+
+Little regard is given to what one wants to be in the future, despite what you might think. Oh, so you chose to take a course focused on biology? You fool, here's the 15 other subjects you need to learn that everyone else studies. Do you need these for your path? No, of course not, but the system wants you to know them. One day you study for that very interesting test on genetics, the next day you are juggling that alongside the geophraphy test that you don't care about. Can you really say that you are being assesed fairly on your knowledge, when no care is taken to allow you to focus on what you really love.
+
+Now don't get me wrong here, general knowledge is important, it really is. Regardless of what we want to be in the future, we can't lack the crucial basics needed to function in our ever so developing society. Sure, I may not care about that one random physics equation that I was told to learn, probably without explaining the real world applications of it, but I for sure should understand that jumping from a big height on streightened legs is not going to end well for me. But herein lies the problem, how can I focus on learning what I need, when the system cannot focus on teaching us what matters?
+
+So does one size fit all? I am saying no, I should not be punished for learning what matters and rejecting what doesn't. Not everyone fits the mold, but instead of trying to understand how we need to shape ourselves, we are forcefully pushed into this mold; in the end we will come out of it but the world may find that we are not so compatible after all. Should a visual learner be punished for losing focus during spoken classes? Should a listener be punished for losing track of the lecture? Am I bad a choice for a chemist because I did poorly on a history test? Don't adapt us to learn, learn to adapt.
+
+## Measuring contest
+Tests. I'm sure we've all been there. You studied for days, you know all the equations, you did plenty of examples. You are ready!... You weren't.. Or that's what you are made to believe. You sat down, the timer starts, you look at the test and you freeze. Qeustions fly through your head; Can I do all these in the time limit? Am I sure I am understanding these questions? I can't ask, that's not allowed, I am not sure how much time I need for any of these questions, I don't have years of experience. Should I skip what I *think* I can't solve or should I try it first? You are questioning yourself, but time is running, no time to think, just rush the test, there are too many questions to spend any time to understand them, go go. And it's over, the timer runs out, the test is gone and so is your confidence, but why? You were sure you understand the topic, you prepared, but the grade shows otherwise.. Or does it? Let's stop for a moment and think, was this test realistic? What is the real world scenario, where you are given 20 questions to complete in 40 minutes with no ability to ask questions, use available sources and resources and the time limit is unreasonably low? If you asked that to any teacher, they probably wouldn't provide you with one. 
+
+So what did the test prove? Did it prove you don't know how to solve the questions in the test? Did it prove you don't understand the topic? Or perhaps it was simply a test of working under unhealthy pressure and the topic was just a material for building the timed escape room you were put inside of? You can solve the questions in the test without issue when not under massive pressure, so why are you graded as if you couldn't? You understand the topic, you can solve any or at least most variations of it, so why were you not graded on that? Will your job ask you to complete 20 equations in 40 minutes locked in a room with no books or internet and not pay you what you deserve if you fail? 
+
+Exams, tests, they don't measure your knowledge as much as they measure your ability to perform on an arbitrary number of questions in an arbitrary number of minutes. Your knowledge is of little value to the system, all that matters is whether you fit the mold, but what comes from the mold just doesn't connect with anything in the real world. Person x is not proven to be worse than person y in their subject of choice, all you have tested is which of the two happens to fit pre-defined scheme.
+
+## Does this machine need repairs or is it time for an upgrade?
+So here we are, we started off curious, we ended with more questions than we found answers. Our dreams are likely gone, so is the motivation to explore, the system successfully beaten the interestes out of our head. We are thrown into the chaotic world of job hunting and practical reality, quickly forgetting most of what we learned, there was no use for it, the vacuum is broken. A decade and more, wasted attempting to gain knowledge, most of which we had no interest in gaining, nor should we. We start to realise we can learn much more on our own, each week, more productive than a month of more of school, we can only imagine what we could do if we got all those years back.
+
+So what should we do about schools? Should they be gone for good? Or should we try and make changes? Despite all that I have said and experienced, both for myself and from years of research and discussions, I still think that schools have their place. What schools should be for, is the much needed guidance that we need as we grow. Schools should follow us on our curious adventure and let us make mistakes and learn on them. We do not need to be punished by a third party for the mistakes we make, because we have ways to tell that we made a mistake, we need to be told, not scolded. Our brain will do the rest. We live through this educational apartheid and we come out worse for wear, stressed and no less lost than we were when we started off. 

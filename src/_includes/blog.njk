@@ -1,17 +1,23 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="Kellegram"/>
-        <meta charset="utf-8">
-        <link href="/styles/main.css" rel="stylesheet">
-        <link href="/styles/fonts.css" rel="stylesheet">
-        <title>Kellegram dev</title>
-    </head>
-    <body>
-    
-        <h1>{{ pageTitle }}</h1>
+---
+layout: _includes/layout.njk
+templateClass: tmpl-blog
+---
+<h1>{{ title }}</h1>
 
-        {{ content }}
-    </body>
-</html>
+<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+{%- for tag in tags | filterTagList -%}
+{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+<a href="{{ tagUrl | url }}" class="page-tag">{{ tag }}</a>
+{%- endfor %}
+
+{{ content | safe }}
+
+{%- set nextBlog = collections.blogs | getNextCollectionItem(page) %}
+{%- set previousBlog = collections.blogs | getPreviousCollectionItem(page) %}
+{%- if nextBlog or previousBlog %}
+<hr>
+<ul>
+  {%- if nextBlog %}<li>Next: <a href="{{ nextBlog.url | url }}">{{ nextBlog.data.title }}</a></li>{% endif %}
+  {%- if previousBlog %}<li>Previous: <a href="{{ previousBlog.url | url }}">{{ previousBlog.data.title }}</a></li>{% endif %}
+</ul>
+{%- endif %}

@@ -1,6 +1,6 @@
 ---
-layout: guide.njk
-pageTitle: How to safeguard your network against Sad DNS
+layout: layout.njk
+title: How to safeguard your network against Sad DNS
 ---
 
 # Explaining some terms

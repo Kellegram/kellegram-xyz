@@ -1,6 +1,6 @@
 ---
 layout: layout.njk
-pageTitle: About me
+title: About me
 ---
 
 # A little bit about me

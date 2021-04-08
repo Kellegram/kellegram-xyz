@@ -1,6 +1,6 @@
 ---
 layout: layout.njk
-pageTitle: Kellegram dev
+title: Kellegram dev
 ---
 
 ## Welcome to my personal website!

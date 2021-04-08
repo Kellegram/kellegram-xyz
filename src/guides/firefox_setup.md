@@ -1,6 +1,6 @@
 ---
-layout: guide.njk
-pageTitle: My firefox setup
+layout: layout.njk
+title: My firefox setup
 ---
 
 # How I configure my Firefox

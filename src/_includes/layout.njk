@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +15,7 @@
             {{ css | cssmin | safe }}
         </style>
         <link rel="shortcut icon" type="image/png" href="/assets/icons/favicon.png"/>
-        <title>{{pageTitle}}</title>
+        <title>{{title}}</title>
     </head>
 
     <body>
@@ -48,7 +47,7 @@
                                     alt="Link to my github" style="width:42px;height:42px;"></a>
                         </div>
                     </div>
-                    <div class="main">
+                    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
                         {{content | safe}}
                     </div>
                 </div>
