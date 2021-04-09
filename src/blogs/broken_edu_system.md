@@ -1,13 +1,6 @@
 ---
-title: Why school doesn't work
-date: 2021-04-09
-tags: [
-        "education",
-        "school",
-        "rant"
-    ]
-description: This is my blog/rant about education systems.
 layout: blog.njk
+title: Why school doesn't work
 ---
 
 # On the global education systems
