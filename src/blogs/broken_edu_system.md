@@ -33,5 +33,6 @@ So here we are, we started off curious, we ended with more questions than we fou
 So what should we do about schools? Should they be gone for good? Or should we try and make changes? Despite all that I have said and experienced, both for myself and from years of research and discussions, I still think that schools have their place. What schools should be for, is the much needed guidance that we need as we grow. Schools should follow us on our curious adventure and let us make mistakes and learn on them. We do not need to be punished by a third party for the mistakes we make, because we have ways to tell that we made a mistake, we need to be told, not scolded. Our brain will do the rest. We live through this educational apartheid and we come out worse for wear, stressed and no less lost than we were when we started off. 
 
 
+---
 
-Edit 1: Fix typos (09/04/2021)
+*Edit 1: Fix typos (09/04/2021)*
