@@ -12,6 +12,11 @@ module.exports = function (eleventyConfig) {
     return new CleanCSS({}).minify(code).styles;
   });
 
+  // Return the smallest number argument
+  eleventyConfig.addFilter("min", (...numbers) => {
+    return Math.min.apply(null, numbers);
+  });
+
   eleventyConfig.setLibrary(
     "md",
     markdownIt({
