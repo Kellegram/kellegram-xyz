@@ -1,5 +1,5 @@
 ---
-layout: blog.njk
+layout: layout.njk
 title: Why school doesn't work
 ---
 
