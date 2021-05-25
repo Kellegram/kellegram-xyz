@@ -1,10 +1,10 @@
 /* standard theme*/
 :root {
   /* Default */
-  --default-text: #f7df9a;
-  --header-text: #db931f;
-  --default-accent: #ff4321;
-  --default-fill: black;
+  --default-text: #f4f4f4;
+  --header-text: #b0f2b4;
+  --default-accent: #baf2e9;
+  --default-fill: #1a1a18;
 }
 
 @font-face {
@@ -53,7 +53,8 @@ header {
   padding: 80px;
   text-align: center;
   color: var(--default-text);
-  border: solid 2px #b7432e;
+  border: solid 5px var(--default-accent);
+  border-bottom: none;
 }
 
 .container {
@@ -81,7 +82,7 @@ header {
 main {
   flex: 85%;
   padding: 20px;
-  border: solid 2px #b7432e;
+  border: solid 5px var(--default-accent);
 }
 
 /* Create two unequal columns that sits next to each other */
@@ -91,7 +92,8 @@ main {
   color: var(--default-accent);
   padding: 15px;
   overflow: auto;
-  border: solid 2px #b7432e;
+  border: solid 5px var(--default-accent);
+  border-right:none;
 }
 a {
   text-decoration-thickness: 0.1em;

@@ -15,7 +15,6 @@ Here you can find my blogs and guides, as well as current ways of contacting me.
 * Check out my [GitHub](https://github.com/Kellegram)
 * [Tweet](https://nitter.net/Kellegramxyz) at me
 * Come talk to us on FOSSVerse [discord](https://discord.gg/DvFH3Dy)
-* And on our [[matrix]](https://matrix.to/#/+techvision:bimpson.ems.host) instance
 * GitLab mirror coming soon
 * Self hosted gitea instance coming some time in the future
 
