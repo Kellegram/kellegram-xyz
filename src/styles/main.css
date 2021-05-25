@@ -192,6 +192,11 @@ section li:before {
     padding-bottom: 0.7rem;
   }
 
+  .side {
+    border-right: solid 5px var(--default-accent);
+    border-bottom: none;
+  }
+
   .side a {
     text-align: center;
     float: none;
