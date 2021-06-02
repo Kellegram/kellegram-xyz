@@ -54,7 +54,8 @@ header {
   text-align: center;
   color: var(--default-text);
   border: solid 5px var(--default-accent);
-  border-bottom: none;
+  border-radius: 20px;
+  margin: 10px;
 }
 
 .container {
@@ -74,7 +75,7 @@ header {
 /* Column container */
 .row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-grow: 1;
 }
 
@@ -83,6 +84,8 @@ main {
   flex: 85%;
   padding: 20px;
   border: solid 5px var(--default-accent);
+  border-radius: 20px;
+  margin: 10px;
 }
 
 /* Create two unequal columns that sits next to each other */
@@ -93,7 +96,8 @@ main {
   padding: 15px;
   overflow: auto;
   border: solid 5px var(--default-accent);
-  border-right:none;
+  border-radius: 20px;
+  margin: 10px;
 }
 a {
   text-decoration-thickness: 0.1em;
