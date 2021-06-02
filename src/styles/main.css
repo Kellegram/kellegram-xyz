@@ -187,11 +187,6 @@ section li:before {
   .side a {
     float: left;
   }
-
-    .side {
-    border-right: solid 5px var(--default-accent);
-    border-bottom: none;
-  }
 }
 
 /* Responsive layout - when the screen is less than 480px wide, make the navigation links stack on top of each other instead of next to each other */
