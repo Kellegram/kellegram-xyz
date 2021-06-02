@@ -54,7 +54,7 @@ header {
   text-align: center;
   color: var(--default-text);
   border: solid 5px var(--default-accent);
-  border-radius: 20px;
+  border-radius: 10px;
   margin: 10px;
 }
 
@@ -84,7 +84,7 @@ main {
   flex: 85%;
   padding: 20px;
   border: solid 5px var(--default-accent);
-  border-radius: 20px;
+  border-radius: 10px;
   margin: 10px;
 }
 
@@ -96,7 +96,7 @@ main {
   padding: 15px;
   overflow: auto;
   border: solid 5px var(--default-accent);
-  border-radius: 20px;
+  border-radius: 10px;
   margin: 10px;
 }
 a {
