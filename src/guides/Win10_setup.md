@@ -1,5 +1,5 @@
 ---
-layout: layout.njk
+layout: guide.njk
 title: My Windows 10 setup
 ---
 
