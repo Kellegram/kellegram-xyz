@@ -7,11 +7,11 @@ title: About me
 
 ## Who am I?
 
-I'm a Polish game programming graduate, currently on an Honours year, exploring concepts of Affective Gaming. I am currently living in Scotland and learning all the fun swears. I advocate for open-source software, respect for privacy and reducing our digital fingerprint. I develop applications mainly in C++ and C# and have some experience with Unity, Unreal Engine and Godot. 
+I'm a Polish game programming graduate, holding a Bachelor of Science with Honours in game programming. I have completed a research project in Affective Gaming for my Honours year. I am currently living in Scotland and learning all the fun ~~swears~~slang. I advocate for open-source software, respect for privacy and reducing our digital fingerprint. I develop applications mainly in C++ and C# and have some experience with Unity, Unreal Engine and Godot. 
 
 ## My current goals
 
-My main goal right now is to research, design and develop an application to test how audio-visual content in video games can be used to manipulate player emotions and actions. I also do my best to practice using Linux in my free time.
+My main goal right now is to build up a portfolio and improve my current programming skills. I am currently in the planning process for an evolution style game using machine learning via genetic algorhithms. It will be a Free and Open Source project that will hopefull be going for years.
 
 ## The nearest future
 
