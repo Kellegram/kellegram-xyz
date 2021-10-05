@@ -11,7 +11,7 @@ I'm a Polish game programming graduate, holding a Bachelor of Science with Honou
 
 ## My current goals
 
-My main goal right now is to build up a portfolio and improve my current programming skills. I am currently in the planning process for an evolution style game using machine learning via genetic algorhithms. It will be a Free and Open Source project that will hopefull be going for years.
+My main goal right now is to build up a portfolio and improve my current programming skills. I am currently in the planning process for an evolution style game using machine learning via genetic algorithms. It will be a Free and Open Source project that will hopefully be going for years.
 
 ## The nearest future
 
