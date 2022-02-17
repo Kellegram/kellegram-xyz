@@ -122,6 +122,7 @@ nav a {
   padding: 16px;
   text-decoration: none;
   text-align: center;
+  border-radius: 10px;
 }
 
 /* Links on mouse-over */
