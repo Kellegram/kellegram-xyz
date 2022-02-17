@@ -5,6 +5,7 @@
   --header-text: #b0f2b4;
   --default-accent: #baf2e9;
   --default-fill: #1a1a18;
+  --fade-animation: 0.25s;
 }
 
 @font-face {
@@ -102,6 +103,7 @@ main {
 a {
   text-decoration-thickness: 0.1em;
   text-underline-offset: 0.12em;
+  transition: var(--fade-animation);
 }
 a:link {
   color: var(--default-accent);
@@ -122,6 +124,7 @@ nav a {
   padding: 16px;
   text-decoration: none;
   text-align: center;
+  transition: var(--fade-animation);
 }
 
 /* Links on mouse-over */
