@@ -5,7 +5,7 @@ title: Kellegram dev
 
 ## Welcome to my personal website!
 
-I'm a C++ programmer trying to find justice for void*. I have recently completed my Honours project and successfully graduated from Abertay University in game programming.
+I'm a C++ programmer trying to find justice for void*. I have recently completed my Honours project and successfully graduated game programming.
 
 Here you can find my blogs and guides, as well as current ways of contacting me. In the future you will also be able to find all my projects here. 
 
@@ -23,4 +23,4 @@ Here you can find my blogs and guides, as well as current ways of contacting me.
 * The website is built on the [NginX](https://www.nginx.com/) web server.
 * Pages are generated with the help of the [Eleventy](https://www.11ty.dev/) Static Site Generator.
 * Credits to [DigitalOcean](https://www.digitalocean.com/community/tutorials) for their great tutorials.
-* This website is built without any JavaScript.
+* This website does not use JavaScript, just like most static sites should be :p
