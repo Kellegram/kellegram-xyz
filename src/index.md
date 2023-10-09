@@ -22,4 +22,4 @@ Here you can find my blogs and guides, as well as current ways of contacting me.
 * The website is built on the [NginX](https://www.nginx.com/) web server.
 * Pages are generated with the help of the [Eleventy](https://www.11ty.dev/) Static Site Generator.
 * Credits to [DigitalOcean](https://www.digitalocean.com/community/tutorials) for their great tutorials.
-* This website does not use JavaScript, just like most static sites should be
+* This website does not use JavaScript, just like most static sites should be.
